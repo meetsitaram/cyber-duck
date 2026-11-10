@@ -1,0 +1,2420 @@
+[
+[
+"leg bus board plugs servo",
+"leg bus board servo sockets",
+321.0,
+[
+-1.6,
+5.1,
+293.89,
+4.4,
+15.8,
+298.89
+]
+],
+[
+"leg bus board plugs uart",
+"leg bus board UART pins",
+157.25,
+[
+-4.1,
+-16.0,
+296.39,
+4.4,
+-8.6,
+298.89
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 case rear",
+105.97,
+[
+23.55,
+23.29,
+267.84,
+41.0,
+26.39,
+286.94
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 case rear",
+105.97,
+[
+18.45,
+-8.5,
+163.89,
+37.55,
+-5.4,
+181.34
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 case rear",
+105.97,
+[
+18.45,
+2.4,
+202.85,
+37.55,
+5.5,
+220.3
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 case rear",
+105.97,
+[
+28.5,
+-14.95,
+269.85,
+31.6,
+2.5,
+288.95
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 case rear",
+105.97,
+[
+20.55,
+-9.55,
+242.39,
+38.0,
+9.55,
+245.49
+]
+],
+[
+"L hip pitch cable plugs",
+"L hip pitch STS3215 case",
+95.46,
+[
+-15.05,
+76.5,
+108.59,
+-11.4,
+81.5,
+126.99
+]
+],
+[
+"L knee cable plugs",
+"L knee STS3215 case",
+95.46,
+[
+-60.15,
+76.5,
+97.9,
+-41.75,
+81.5,
+101.55
+]
+],
+[
+"R ankle pitch cable plugs",
+"R ankle pitch STS3215 case",
+95.46,
+[
+-60.15,
+-43.4,
+40.9,
+-41.75,
+-38.4,
+44.55
+]
+],
+[
+"R hip roll cable plugs",
+"R hip roll STS3215 case",
+95.46,
+[
+-19.05,
+-27.7,
+102.74,
+-14.05,
+-9.3,
+106.39
+]
+],
+[
+"L hip roll cable plugs",
+"L hip roll STS3215 case",
+95.46,
+[
+-19.05,
+9.3,
+102.74,
+-14.05,
+27.7,
+106.39
+]
+],
+[
+"L ankle pitch cable plugs",
+"L ankle pitch STS3215 case",
+95.46,
+[
+-60.15,
+38.4,
+40.9,
+-41.75,
+43.4,
+44.55
+]
+],
+[
+"R hip pitch cable plugs",
+"R hip pitch STS3215 case",
+95.46,
+[
+-15.05,
+-81.5,
+108.59,
+-11.4,
+-76.5,
+126.99
+]
+],
+[
+"R knee cable plugs",
+"R knee STS3215 case",
+95.46,
+[
+-60.15,
+-81.5,
+97.9,
+-41.75,
+-76.5,
+101.55
+]
+],
+[
+"L hip yaw cable plugs",
+"L hip yaw STS3215 case",
+95.46,
+[
+-15.05,
+6.8,
+174.44,
+-11.4,
+25.2,
+179.44
+]
+],
+[
+"R hip yaw cable plugs",
+"R hip yaw STS3215 case",
+95.46,
+[
+-15.05,
+-25.2,
+174.44,
+-11.4,
+-6.8,
+179.44
+]
+],
+[
+"bus board cable plugs power",
+"Waveshare bus board DC terminals",
+80.0,
+[
+58.22,
+16.5,
+279.39,
+68.22,
+17.5,
+287.39
+]
+],
+[
+"head roll XL330 centre screw",
+"head roll XL330 case middle",
+34.85,
+[
+40.4,
+-1.3,
+278.1,
+47.0,
+1.3,
+280.7
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 centre screw",
+34.85,
+[
+37.2,
+35.19,
+276.09,
+39.8,
+41.79,
+278.69
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 centre screw",
+34.85,
+[
+26.7,
+3.4,
+165.09,
+29.3,
+10.0,
+167.69
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 centre screw",
+34.85,
+[
+26.7,
+-13.0,
+216.5,
+29.3,
+-6.4,
+219.1
+]
+],
+[
+"head yaw XL330 centre screw",
+"head yaw XL330 case middle",
+34.85,
+[
+34.2,
+-1.3,
+254.29,
+36.8,
+1.3,
+260.89
+]
+],
+[
+"bus board cable plugs usb",
+"Waveshare bus board USB-C",
+30.46,
+[
+64.92,
+16.5,
+269.59,
+68.22,
+17.8,
+276.69
+]
+],
+[
+"battery 2S 850 mAh",
+"battery XT30",
+28.54,
+[
+-53.1,
+26.8,
+150.0,
+-40.5,
+27.0,
+161.5
+]
+],
+[
+"Pi USB plug",
+"Pi Zero 2 W USB port",
+20.8,
+[
+83.42,
+-12.9,
+294.39,
+86.02,
+-4.9,
+295.39
+]
+],
+[
+"Pi PWR plug",
+"Pi Zero 2 W power port",
+20.8,
+[
+83.42,
+-25.5,
+294.39,
+86.02,
+-17.5,
+295.39
+]
+],
+[
+"R roll bracket",
+"R hip roll horn bearing inner race",
+11.18,
+[
+21.41,
+-29.4,
+106.89,
+22.1,
+-7.6,
+128.69
+]
+],
+[
+"L roll bracket",
+"L hip pitch horn bearing inner race",
+11.18,
+[
+-10.9,
+40.35,
+106.89,
+10.9,
+41.04,
+128.69
+]
+],
+[
+"L shin",
+"L knee horn bearing inner race",
+11.18,
+[
+-61.85,
+40.35,
+75.6,
+-40.05,
+41.04,
+97.4
+]
+],
+[
+"R roll bracket",
+"R hip pitch horn bearing inner race",
+11.14,
+[
+-10.75,
+-41.04,
+107.07,
+10.9,
+-40.35,
+128.51
+]
+],
+[
+"R shin",
+"R knee horn bearing inner race",
+11.13,
+[
+-61.84,
+-41.04,
+75.61,
+-40.31,
+-40.35,
+97.39
+]
+],
+[
+"R yaw bracket",
+"R hip yaw horn bearing inner race",
+11.12,
+[
+-10.75,
+-26.75,
+138.29,
+10.75,
+-5.25,
+138.98
+]
+],
+[
+"L yaw bracket",
+"L hip yaw horn bearing inner race",
+11.12,
+[
+-10.75,
+5.25,
+138.29,
+10.75,
+26.75,
+138.98
+]
+],
+[
+"L roll bracket",
+"L hip roll horn bearing inner race",
+11.11,
+[
+21.41,
+7.72,
+107.07,
+22.1,
+29.28,
+128.51
+]
+],
+[
+"R shoe",
+"R sole",
+9.49,
+[
+-70.71,
+-82.45,
+13.4,
+-24.82,
+-77.95,
+15.4
+]
+],
+[
+"head roll XL330 idler screw",
+"head roll XL330 case middle",
+9.36,
+[
+28.5,
+-1.3,
+278.1,
+30.8,
+1.3,
+280.7
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 idler screw",
+9.36,
+[
+26.7,
+-8.5,
+165.09,
+29.3,
+-6.2,
+167.69
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 idler screw",
+9.36,
+[
+26.7,
+3.2,
+216.5,
+29.3,
+5.5,
+219.1
+]
+],
+[
+"head roll XL330 idler screw",
+"head roll XL330 case rear",
+9.23,
+[
+25.8,
+-1.3,
+278.1,
+30.0,
+1.3,
+280.7
+]
+],
+[
+"neck pitch XL330 case rear",
+"neck pitch XL330 idler screw",
+9.23,
+[
+26.7,
+-11.2,
+165.09,
+29.3,
+-7.0,
+167.69
+]
+],
+[
+"head pitch XL330 case rear",
+"head pitch XL330 idler screw",
+9.23,
+[
+26.7,
+4.0,
+216.5,
+29.3,
+8.2,
+219.1
+]
+],
+[
+"battery 2S 850 mAh",
+"battery balance plug",
+8.27,
+[
+-53.1,
+26.8,
+162.5,
+-47.0,
+27.0,
+169.5
+]
+],
+[
+"R shoe bottom screw 0",
+"R sole",
+7.6,
+[
+-75.15,
+-60.2,
+8.0,
+-69.75,
+-54.8,
+8.55
+]
+],
+[
+"R shoe bottom screw 1",
+"R sole",
+7.6,
+[
+-15.65,
+-60.2,
+8.0,
+-10.25,
+-54.8,
+8.55
+]
+],
+[
+"L shoe bottom screw 0",
+"L sole",
+7.6,
+[
+-75.15,
+54.8,
+8.0,
+-69.75,
+60.2,
+8.55
+]
+],
+[
+"L shoe bottom screw 1",
+"L sole",
+7.6,
+[
+-15.65,
+54.8,
+8.0,
+-10.25,
+60.2,
+8.55
+]
+],
+[
+"R shin",
+"R ankle boss screw 0",
+6.91,
+[
+-48.75,
+-37.95,
+31.7,
+-43.35,
+-37.45,
+37.1
+]
+],
+[
+"R shin",
+"R ankle boss screw 1",
+6.91,
+[
+-58.55,
+-37.95,
+31.7,
+-53.15,
+-37.45,
+37.1
+]
+],
+[
+"R shin",
+"R ankle boss screw 2",
+6.91,
+[
+-58.55,
+-37.95,
+21.9,
+-53.15,
+-37.45,
+27.3
+]
+],
+[
+"R shin",
+"R ankle boss screw 3",
+6.91,
+[
+-48.75,
+-37.95,
+21.9,
+-43.35,
+-37.45,
+27.3
+]
+],
+[
+"L shin",
+"L ankle boss screw 0",
+6.91,
+[
+-48.75,
+37.45,
+31.7,
+-43.35,
+37.95,
+37.1
+]
+],
+[
+"L shin",
+"L ankle boss screw 1",
+6.91,
+[
+-58.55,
+37.45,
+31.7,
+-53.15,
+37.95,
+37.1
+]
+],
+[
+"L shin",
+"L ankle boss screw 2",
+6.91,
+[
+-58.55,
+37.45,
+21.9,
+-53.15,
+37.95,
+27.3
+]
+],
+[
+"L shin",
+"L ankle boss screw 3",
+6.91,
+[
+-48.75,
+37.45,
+21.9,
+-43.35,
+37.95,
+27.3
+]
+],
+[
+"leg bus board plugs power",
+"leg bus board DC terminals",
+4.8,
+[
+-3.6,
+-4.3,
+264.89,
+2.4,
+3.7,
+264.99
+]
+],
+[
+"head roll rear bearing inner race",
+"head roll XL330 idler",
+4.58,
+[
+21.14,
+-8.0,
+271.4,
+23.0,
+8.0,
+287.4
+]
+],
+[
+"head roll horn bearing inner race",
+"head roll XL330 horn",
+4.48,
+[
+48.0,
+-8.0,
+271.4,
+49.85,
+8.0,
+287.4
+]
+],
+[
+"head yaw horn bearing inner race",
+"head yaw XL330 horn",
+4.48,
+[
+27.5,
+-8.0,
+261.89,
+43.5,
+8.0,
+263.75
+]
+],
+[
+"R hinge screw",
+"hood",
+4.32,
+[
+37.0,
+-44.3,
+277.89,
+40.0,
+-42.3,
+280.89
+]
+],
+[
+"L hip pitch lid",
+"L hip pitch cradle screw near 0",
+4.18,
+[
+-10.2,
+44.35,
+126.09,
+-6.4,
+44.95,
+129.89
+]
+],
+[
+"L hip pitch lid",
+"L hip pitch cradle screw near 1",
+4.18,
+[
+-10.2,
+44.35,
+105.69,
+-6.4,
+44.95,
+109.49
+]
+],
+[
+"L knee lid",
+"L knee cradle screw near 0",
+4.18,
+[
+-42.65,
+44.35,
+92.9,
+-38.85,
+44.95,
+96.7
+]
+],
+[
+"L knee lid",
+"L knee cradle screw near 1",
+4.18,
+[
+-63.05,
+44.35,
+92.9,
+-59.25,
+44.95,
+96.7
+]
+],
+[
+"R hip roll lid",
+"R hip roll cradle screw near 0",
+4.18,
+[
+17.5,
+-10.2,
+107.59,
+18.1,
+-6.4,
+111.39
+]
+],
+[
+"R hip roll lid",
+"R hip roll cradle screw near 1",
+4.18,
+[
+17.5,
+-30.6,
+107.59,
+18.1,
+-26.8,
+111.39
+]
+],
+[
+"L hip roll lid",
+"L hip roll cradle screw near 0",
+4.18,
+[
+17.5,
+26.8,
+107.59,
+18.1,
+30.6,
+111.39
+]
+],
+[
+"L hip roll lid",
+"L hip roll cradle screw near 1",
+4.18,
+[
+17.5,
+6.4,
+107.59,
+18.1,
+10.2,
+111.39
+]
+],
+[
+"R hip pitch lid",
+"R hip pitch cradle screw near 0",
+4.18,
+[
+-10.2,
+-44.95,
+126.09,
+-6.4,
+-44.35,
+129.89
+]
+],
+[
+"R hip pitch lid",
+"R hip pitch cradle screw near 1",
+4.18,
+[
+-10.2,
+-44.95,
+105.69,
+-6.4,
+-44.35,
+109.49
+]
+],
+[
+"R knee lid",
+"R knee cradle screw near 0",
+4.18,
+[
+-42.65,
+-44.95,
+92.9,
+-38.85,
+-44.35,
+96.7
+]
+],
+[
+"R knee lid",
+"R knee cradle screw near 1",
+4.18,
+[
+-63.05,
+-44.95,
+92.9,
+-59.25,
+-44.35,
+96.7
+]
+],
+[
+"L hip yaw lid",
+"L hip yaw cradle screw near 0",
+4.18,
+[
+-10.2,
+24.3,
+142.29,
+-6.4,
+28.1,
+142.89
+]
+],
+[
+"L hip yaw lid",
+"L hip yaw cradle screw near 1",
+4.18,
+[
+-10.2,
+3.9,
+142.29,
+-6.4,
+7.7,
+142.89
+]
+],
+[
+"R hip yaw lid",
+"R hip yaw cradle screw near 0",
+4.18,
+[
+-10.2,
+-7.7,
+142.29,
+-6.4,
+-3.9,
+142.89
+]
+],
+[
+"R hip yaw lid",
+"R hip yaw cradle screw near 1",
+4.18,
+[
+-10.2,
+-28.1,
+142.29,
+-6.4,
+-24.3,
+142.89
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 socket 0",
+3.69,
+[
+26.68,
+28.09,
+269.37,
+32.32,
+31.09,
+270.01
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 socket 1",
+3.69,
+[
+26.68,
+28.09,
+284.77,
+32.32,
+31.09,
+285.41
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 socket 0",
+3.69,
+[
+19.98,
+-3.7,
+172.57,
+20.62,
+-0.7,
+178.21
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 socket 1",
+3.69,
+[
+35.38,
+-3.7,
+172.57,
+36.02,
+-0.7,
+178.21
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 socket 0",
+3.69,
+[
+19.98,
+-2.3,
+205.98,
+20.62,
+0.7,
+211.62
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 socket 1",
+3.69,
+[
+35.38,
+-2.3,
+205.98,
+36.02,
+0.7,
+211.62
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 socket 0",
+3.69,
+[
+33.3,
+-11.82,
+286.78,
+36.3,
+-6.18,
+287.42
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 socket 1",
+3.69,
+[
+33.3,
+-11.82,
+271.38,
+36.3,
+-6.18,
+272.02
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 socket 0",
+3.69,
+[
+23.68,
+7.38,
+247.19,
+29.32,
+8.02,
+250.19
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 socket 1",
+3.69,
+[
+23.68,
+-8.02,
+247.19,
+29.32,
+-7.38,
+250.19
+]
+],
+[
+"R hip roll horn bearing inner race",
+"R hip roll STS3215 horn",
+2.98,
+[
+18.1,
+-28.5,
+107.79,
+19.05,
+-8.5,
+127.79
+]
+],
+[
+"R hip pitch horn bearing inner race",
+"R hip pitch STS3215 horn",
+2.98,
+[
+-10.0,
+-44.35,
+107.79,
+10.0,
+-43.4,
+127.79
+]
+],
+[
+"L hip roll horn bearing inner race",
+"L hip roll STS3215 horn",
+2.98,
+[
+18.1,
+8.5,
+107.79,
+19.05,
+28.5,
+127.79
+]
+],
+[
+"L hip pitch horn bearing inner race",
+"L hip pitch STS3215 horn",
+2.98,
+[
+-10.0,
+43.4,
+107.79,
+10.0,
+44.35,
+127.79
+]
+],
+[
+"R knee horn bearing inner race",
+"R knee STS3215 horn",
+2.98,
+[
+-60.95,
+-44.35,
+76.5,
+-40.95,
+-43.4,
+96.5
+]
+],
+[
+"R hip yaw horn bearing inner race",
+"R hip yaw STS3215 horn",
+2.98,
+[
+-10.0,
+-26.0,
+141.34,
+10.0,
+-6.0,
+142.29
+]
+],
+[
+"L hip yaw horn bearing inner race",
+"L hip yaw STS3215 horn",
+2.98,
+[
+-10.0,
+6.0,
+141.34,
+10.0,
+26.0,
+142.29
+]
+],
+[
+"L knee horn bearing inner race",
+"L knee STS3215 horn",
+2.98,
+[
+-60.95,
+43.4,
+76.5,
+-40.95,
+44.35,
+96.5
+]
+],
+[
+"R shin",
+"R ankle pitch STS3215 rear horn",
+2.51,
+[
+-55.45,
+-39.55,
+25.0,
+-46.45,
+-39.45,
+34.0
+]
+],
+[
+"L shin",
+"L ankle pitch STS3215 rear horn",
+2.51,
+[
+-55.45,
+39.45,
+25.0,
+-46.45,
+39.55,
+34.0
+]
+],
+[
+"beak XL330 case rear",
+"beak XL330 case screw 0",
+2.5,
+[
+18.25,
+19.79,
+268.14,
+19.95,
+23.29,
+269.84
+]
+],
+[
+"beak XL330 case rear",
+"beak XL330 case screw 1",
+2.5,
+[
+14.75,
+19.79,
+281.44,
+16.45,
+23.29,
+283.14
+]
+],
+[
+"beak XL330 case rear",
+"beak XL330 case screw 2",
+2.5,
+[
+42.15,
+19.79,
+268.14,
+43.85,
+23.29,
+269.84
+]
+],
+[
+"beak XL330 case rear",
+"beak XL330 case screw 3",
+2.5,
+[
+42.15,
+19.79,
+284.94,
+43.85,
+23.29,
+286.64
+]
+],
+[
+"neck pitch XL330 case rear",
+"neck pitch XL330 case screw 0",
+2.5,
+[
+18.75,
+-12.0,
+184.94,
+20.45,
+-8.5,
+186.64
+]
+],
+[
+"neck pitch XL330 case rear",
+"neck pitch XL330 case screw 1",
+2.5,
+[
+32.05,
+-12.0,
+188.44,
+33.75,
+-8.5,
+190.14
+]
+],
+[
+"neck pitch XL330 case rear",
+"neck pitch XL330 case screw 2",
+2.5,
+[
+18.75,
+-12.0,
+161.04,
+20.45,
+-8.5,
+162.74
+]
+],
+[
+"neck pitch XL330 case rear",
+"neck pitch XL330 case screw 3",
+2.5,
+[
+35.55,
+-12.0,
+161.04,
+37.25,
+-8.5,
+162.74
+]
+],
+[
+"head pitch XL330 case rear",
+"head pitch XL330 case screw 0",
+2.5,
+[
+18.75,
+5.5,
+197.55,
+20.45,
+9.0,
+199.25
+]
+],
+[
+"head pitch XL330 case rear",
+"head pitch XL330 case screw 1",
+2.5,
+[
+32.05,
+5.5,
+194.05,
+33.75,
+9.0,
+195.75
+]
+],
+[
+"head pitch XL330 case rear",
+"head pitch XL330 case screw 2",
+2.5,
+[
+18.75,
+5.5,
+221.45,
+20.45,
+9.0,
+223.15
+]
+],
+[
+"head pitch XL330 case rear",
+"head pitch XL330 case screw 3",
+2.5,
+[
+35.55,
+5.5,
+221.45,
+37.25,
+9.0,
+223.15
+]
+],
+[
+"head roll XL330 case rear",
+"head roll XL330 case screw 0",
+2.5,
+[
+25.0,
+-20.25,
+286.95,
+28.5,
+-18.55,
+288.65
+]
+],
+[
+"head roll XL330 case rear",
+"head roll XL330 case screw 1",
+2.5,
+[
+25.0,
+-23.75,
+273.65,
+28.5,
+-22.05,
+275.35
+]
+],
+[
+"head roll XL330 case rear",
+"head roll XL330 case screw 2",
+2.5,
+[
+25.0,
+3.65,
+286.95,
+28.5,
+5.35,
+288.65
+]
+],
+[
+"head roll XL330 case rear",
+"head roll XL330 case screw 3",
+2.5,
+[
+25.0,
+3.65,
+270.15,
+28.5,
+5.35,
+271.85
+]
+],
+[
+"head yaw XL330 case rear",
+"head yaw XL330 case screw 0",
+2.5,
+[
+15.25,
+7.55,
+238.89,
+16.95,
+9.25,
+242.39
+]
+],
+[
+"head yaw XL330 case rear",
+"head yaw XL330 case screw 1",
+2.5,
+[
+11.75,
+-5.75,
+238.89,
+13.45,
+-4.05,
+242.39
+]
+],
+[
+"head yaw XL330 case rear",
+"head yaw XL330 case screw 2",
+2.5,
+[
+39.15,
+7.55,
+238.89,
+40.85,
+9.25,
+242.39
+]
+],
+[
+"head yaw XL330 case rear",
+"head yaw XL330 case screw 3",
+2.5,
+[
+39.15,
+-9.25,
+238.89,
+40.85,
+-7.55,
+242.39
+]
+],
+[
+"L thigh cover",
+"L thigh cover screw hip",
+2.16,
+[
+-1.9,
+88.75,
+115.89,
+1.9,
+89.05,
+119.69
+]
+],
+[
+"L thigh cover",
+"L thigh cover screw knee",
+2.16,
+[
+-52.85,
+88.75,
+84.6,
+-49.05,
+89.05,
+88.4
+]
+],
+[
+"R thigh cover",
+"R thigh cover screw hip",
+2.16,
+[
+-1.9,
+-89.05,
+115.89,
+1.9,
+-88.75,
+119.69
+]
+],
+[
+"R thigh cover",
+"R thigh cover screw knee",
+2.16,
+[
+-52.85,
+-89.05,
+84.6,
+-49.05,
+-88.75,
+88.4
+]
+],
+[
+"body shell",
+"body screw 0",
+2.16,
+[
+-47.4,
+-1.9,
+189.59,
+-43.6,
+1.9,
+189.89
+]
+],
+[
+"body shell",
+"body screw 1",
+2.16,
+[
+3.1,
+-1.9,
+189.59,
+6.9,
+1.9,
+189.89
+]
+],
+[
+"L shin",
+"L ankle bearing inner race",
+1.6,
+[
+-56.3,
+36.45,
+24.15,
+-45.6,
+37.25,
+34.85
+]
+],
+[
+"bus board top screw 0",
+"Waveshare bus board mounting rings",
+0.8,
+[
+68.17,
+11.75,
+299.94,
+68.22,
+16.25,
+304.44
+]
+],
+[
+"bus board top screw 1",
+"Waveshare bus board mounting rings",
+0.8,
+[
+68.17,
+-16.25,
+299.94,
+68.22,
+-11.75,
+304.44
+]
+],
+[
+"bus board top screw 2",
+"Waveshare bus board mounting rings",
+0.8,
+[
+68.17,
+11.75,
+262.94,
+68.22,
+16.25,
+267.44
+]
+],
+[
+"bus board top screw 3",
+"Waveshare bus board mounting rings",
+0.8,
+[
+68.17,
+-16.25,
+262.94,
+68.22,
+-11.75,
+267.44
+]
+],
+[
+"leg bus board screw 0",
+"leg bus board mounting rings",
+0.8,
+[
+4.35,
+16.25,
+294.14,
+4.4,
+20.75,
+298.64
+]
+],
+[
+"leg bus board screw 1",
+"leg bus board mounting rings",
+0.8,
+[
+4.35,
+-20.75,
+294.14,
+4.4,
+-16.25,
+298.64
+]
+],
+[
+"leg bus board screw 2",
+"leg bus board mounting rings",
+0.8,
+[
+4.35,
+16.25,
+266.14,
+4.4,
+20.75,
+270.64
+]
+],
+[
+"leg bus board screw 3",
+"leg bus board mounting rings",
+0.8,
+[
+4.35,
+-20.75,
+266.14,
+4.4,
+-16.25,
+270.64
+]
+],
+[
+"R hip yaw STS3215 horn",
+"chassis",
+0.67,
+[
+9.6,
+-18.8,
+143.39,
+10.0,
+-13.2,
+143.84
+]
+],
+[
+"Pi screw 0",
+"Pi Zero 2 W mounting rings",
+0.57,
+[
+83.42,
+27.1,
+288.99,
+83.47,
+30.9,
+292.79
+]
+],
+[
+"Pi screw 1",
+"Pi Zero 2 W mounting rings",
+0.57,
+[
+83.42,
+-30.9,
+288.99,
+83.47,
+-27.1,
+292.79
+]
+],
+[
+"Pi screw 2",
+"Pi Zero 2 W mounting rings",
+0.57,
+[
+83.42,
+27.1,
+265.99,
+83.47,
+30.9,
+269.79
+]
+],
+[
+"Pi screw 3",
+"Pi Zero 2 W mounting rings",
+0.57,
+[
+83.42,
+-30.9,
+265.99,
+83.47,
+-27.1,
+269.79
+]
+],
+[
+"neck column",
+"neck lid",
+0.49,
+[
+15.31,
+10.1,
+189.73,
+40.69,
+10.56,
+190.19
+]
+],
+[
+"R thigh frame",
+"R hip pitch lid",
+0.45,
+[
+-35.0,
+-44.95,
+102.85,
+-34.54,
+-44.39,
+133.04
+]
+],
+[
+"L hip yaw STS3215 horn",
+"chassis",
+0.43,
+[
+9.6,
+13.2,
+143.39,
+10.0,
+16.5,
+143.84
+]
+],
+[
+"R thigh frame",
+"R knee lid",
+0.37,
+[
+-65.9,
+-44.95,
+121.04,
+-36.0,
+-44.39,
+121.5
+]
+],
+[
+"R shoe",
+"R ankle pitch STS3215 horn",
+0.36,
+[
+-58.48,
+-76.5,
+19.5,
+-43.42,
+-76.34,
+22.98
+]
+],
+[
+"head roll rear spacer",
+"head roll XL330 idler",
+0.33,
+[
+21.0,
+-7.8,
+271.6,
+21.0,
+7.81,
+287.2
+]
+],
+[
+"head fork",
+"head pitch XL330 idler",
+0.33,
+[
+20.19,
+13.0,
+209.99,
+35.8,
+13.0,
+225.6
+]
+],
+[
+"chassis",
+"neck pitch XL330 idler",
+0.33,
+[
+20.19,
+-16.0,
+158.59,
+35.8,
+-16.0,
+174.19
+]
+],
+[
+"neck column",
+"head pitch lid",
+0.32,
+[
+15.31,
+-13.56,
+193.99,
+40.69,
+-13.1,
+194.46
+]
+],
+[
+"L thigh frame",
+"L knee lid",
+0.32,
+[
+-65.9,
+44.39,
+121.04,
+-36.0,
+44.95,
+121.5
+]
+],
+[
+"head fork",
+"head yaw sheet",
+0.32,
+[
+11.1,
+-12.6,
+260.99,
+11.56,
+12.6,
+261.45
+]
+],
+[
+"chassis",
+"R hip yaw lid",
+0.32,
+[
+-35.0,
+-30.95,
+142.33,
+-34.54,
+-1.05,
+142.89
+]
+],
+[
+"L shoe",
+"L ankle pitch STS3215 horn",
+0.31,
+[
+-57.93,
+76.34,
+19.5,
+-43.97,
+76.5,
+22.34
+]
+],
+[
+"L thigh frame",
+"L hip pitch lid",
+0.16,
+[
+-35.0,
+44.39,
+102.85,
+-34.54,
+44.95,
+105.65
+]
+],
+[
+"beak XL330 case front",
+"beak XL330 label",
+0.14,
+[
+18.8,
+41.79,
+270.79,
+20.5,
+41.79,
+283.99
+]
+],
+[
+"neck pitch XL330 case front",
+"neck pitch XL330 label",
+0.14,
+[
+21.4,
+9.99,
+184.4,
+34.6,
+10.0,
+186.09
+]
+],
+[
+"head pitch XL330 case front",
+"head pitch XL330 label",
+0.14,
+[
+21.4,
+-13.0,
+198.09,
+34.6,
+-12.99,
+199.79
+]
+],
+[
+"head roll XL330 case front",
+"head roll XL330 label",
+0.14,
+[
+46.99,
+-19.7,
+272.79,
+47.0,
+-18.0,
+285.99
+]
+],
+[
+"head yaw XL330 case front",
+"head yaw XL330 label",
+0.14,
+[
+15.8,
+-6.6,
+260.88,
+17.5,
+6.6,
+260.89
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 case screw 0",
+0.13,
+[
+18.25,
+23.29,
+268.14,
+19.95,
+23.79,
+269.84
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 case screw 1",
+0.13,
+[
+14.75,
+23.29,
+281.44,
+16.45,
+23.79,
+283.14
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 case screw 2",
+0.13,
+[
+42.15,
+23.29,
+268.14,
+43.85,
+23.79,
+269.84
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 case screw 3",
+0.13,
+[
+42.15,
+23.29,
+284.94,
+43.85,
+23.79,
+286.64
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 case screw 0",
+0.13,
+[
+18.75,
+-8.5,
+184.94,
+20.45,
+-8.0,
+186.64
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 case screw 1",
+0.13,
+[
+32.05,
+-8.5,
+188.44,
+33.75,
+-8.0,
+190.14
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 case screw 2",
+0.13,
+[
+18.75,
+-8.5,
+161.04,
+20.45,
+-8.0,
+162.74
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 case screw 3",
+0.13,
+[
+35.55,
+-8.5,
+161.04,
+37.25,
+-8.0,
+162.74
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 case screw 0",
+0.13,
+[
+18.75,
+5.0,
+197.55,
+20.45,
+5.5,
+199.25
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 case screw 1",
+0.13,
+[
+32.05,
+5.0,
+194.05,
+33.75,
+5.5,
+195.75
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 case screw 2",
+0.13,
+[
+18.75,
+5.0,
+221.45,
+20.45,
+5.5,
+223.15
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 case screw 3",
+0.13,
+[
+35.55,
+5.0,
+221.45,
+37.25,
+5.5,
+223.15
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 case screw 0",
+0.13,
+[
+28.5,
+-20.25,
+286.95,
+29.0,
+-18.55,
+288.65
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 case screw 1",
+0.13,
+[
+28.5,
+-23.75,
+273.65,
+29.0,
+-22.05,
+275.35
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 case screw 2",
+0.13,
+[
+28.5,
+3.65,
+286.95,
+29.0,
+5.35,
+288.65
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 case screw 3",
+0.13,
+[
+28.5,
+3.65,
+270.15,
+29.0,
+5.35,
+271.85
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 case screw 0",
+0.13,
+[
+15.25,
+7.55,
+242.39,
+16.95,
+9.25,
+242.89
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 case screw 1",
+0.13,
+[
+11.75,
+-5.75,
+242.39,
+13.45,
+-4.05,
+242.89
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 case screw 2",
+0.13,
+[
+39.15,
+7.55,
+242.39,
+40.85,
+9.25,
+242.89
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 case screw 3",
+0.13,
+[
+39.15,
+-9.25,
+242.39,
+40.85,
+-7.55,
+242.89
+]
+],
+[
+"R yaw bracket",
+"R hip roll lid",
+0.07,
+[
+17.5,
+-32.1,
+82.79,
+18.06,
+-30.65,
+83.26
+]
+],
+[
+"L yaw bracket",
+"L hip roll lid",
+0.07,
+[
+17.5,
+30.65,
+82.79,
+18.06,
+32.1,
+83.26
+]
+],
+[
+"Pi Zero 2 W mounting rings",
+"Pi Zero 2 W microSD socket",
+0.04,
+[
+83.42,
+27.53,
+270.39,
+83.47,
+30.47,
+270.79
+]
+],
+[
+"R yaw bracket",
+"R hip roll STS3215 case",
+0.02,
+[
+-15.55,
+-30.52,
+112.44,
+-15.45,
+-6.71,
+112.49
+]
+],
+[
+"L yaw bracket",
+"L hip roll STS3215 case",
+0.02,
+[
+-15.55,
+6.71,
+112.44,
+-15.45,
+30.52,
+112.49
+]
+],
+[
+"beak XL330 case middle",
+"beak XL330 case front",
+0.01,
+[
+14.45,
+37.79,
+267.84,
+47.55,
+38.29,
+286.94
+]
+],
+[
+"neck pitch XL330 case middle",
+"neck pitch XL330 case front",
+0.01,
+[
+18.45,
+6.0,
+157.34,
+37.55,
+6.5,
+190.44
+]
+],
+[
+"head pitch XL330 case middle",
+"head pitch XL330 case front",
+0.01,
+[
+18.45,
+-9.5,
+193.75,
+37.55,
+-9.0,
+226.85
+]
+],
+[
+"head roll XL330 case middle",
+"head roll XL330 case front",
+0.01,
+[
+43.0,
+-24.05,
+269.85,
+43.5,
+9.05,
+288.95
+]
+],
+[
+"head yaw XL330 case middle",
+"head yaw XL330 case front",
+0.01,
+[
+11.45,
+-9.55,
+256.89,
+44.55,
+9.55,
+257.39
+]
+],
+[
+"jaw",
+"jaw soft insert",
+0.0,
+[
+116.49,
+48.4,
+251.39,
+116.5,
+48.53,
+256.15
+]
+]
+]

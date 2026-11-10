@@ -1,0 +1,122 @@
+{
+ "L_knee_link": {
+  "hash": "516f6492dce7366d92ddf1c8e0c83bab9a24eb78a45d507ad384a7515735b6ba",
+  "bad": [],
+  "seconds": 14.8
+ },
+ "trunk": {
+  "hash": "1c17466791c16a9a81e85a187f812198b886f335971c0edf725fb2708c46de9b",
+  "bad": [],
+  "seconds": 198.0
+ },
+ "L_hip_yaw_link": {
+  "hash": "512514a493094cdfb1336bb1414816db001484ea4e2bdd8e472d1c241a17fcef",
+  "bad": [],
+  "seconds": 18.2
+ },
+ "R_hip_yaw_link": {
+  "hash": "8e073d8684fe16c2fc3547f765e83d53a5692b03f47f06ff1aea309cf09b4880",
+  "bad": [],
+  "seconds": 14.3
+ },
+ "L_hip_roll_link": {
+  "hash": "5d146ee6fc37b54942b68809c29d6925cc1012eee29d7a4bf6016555ffc6f1ce",
+  "bad": [],
+  "seconds": 15.0
+ },
+ "R_hip_roll_link": {
+  "hash": "c8aa53128464fd41bfb1f030fcfc021db48083fee4a9b5caf0c8d9ff73c730d3",
+  "bad": [],
+  "seconds": 12.0
+ },
+ "L_hip_pitch_link": {
+  "hash": "34382c508e6c663a20c9e17ce04f8357b4d1153338dfb8bad610983927dc9eb0",
+  "bad": [],
+  "seconds": 22.7
+ },
+ "R_hip_pitch_link": {
+  "hash": "bc643d5ecad06a1ae7c2be450a5b8f7120e46de8f5249377d227c5b0365a417a",
+  "bad": [],
+  "seconds": 20.9
+ },
+ "R_knee_link": {
+  "hash": "110974fcd82503d10eaeadb742c1cec8b31cd567353e522a539d5a8b82a48a42",
+  "bad": [],
+  "seconds": 14.1
+ },
+ "L_foot": {
+  "hash": "200955bff8cb2b9f6ead02392786c4e576bc3f6becd64496f23e2fefbf25fa66",
+  "bad": [],
+  "seconds": 11.3
+ },
+ "R_foot": {
+  "hash": "891ee2d448988c845c8f66e4e3cd0aa531e58fc27c48eb1e28ef38b2ec55b5a6",
+  "bad": [],
+  "seconds": 7.9
+ },
+ "neck_link": {
+  "hash": "d8e0f779b1f33de202ae59b99efb3bfee058c34b3d28a6102d9b58fcdcaa12f8",
+  "bad": [],
+  "seconds": 12.9
+ },
+ "head_pitch_link": {
+  "hash": "a93502f0107adb4279055af291a2d509fe3b42b5f98d197b9be82fd445f364d1",
+  "bad": [],
+  "seconds": 14.6
+ },
+ "head_yaw_link": {
+  "hash": "c4e76612b5fe67a790e5ceb71abc5eb01404f1130c92b3e578e75389daf220e3",
+  "bad": [],
+  "seconds": 9.5
+ },
+ "head": {
+  "hash": "74eb008ebf76e63057bf9426b742fa23e21597174bdbc9ceaa041a9161ea9b96",
+  "bad": [],
+  "seconds": 196.0
+ },
+ "beak_link": {
+  "hash": "9cc449f54ee81ceb3411320304b90436fad24573b91b5e75e10846c9c6af54ba",
+  "bad": [],
+  "seconds": 11.3
+ },
+ "L_knee_crank_I": {
+  "hash": "7ec4339eb52346e7292640038312ce93b40fdcf5a345f092f927ef4e7aa9979f",
+  "bad": [],
+  "seconds": 3.6
+ },
+ "L_knee_crank_O": {
+  "hash": "83dea8d4e2c4e9113767ed272f730c2aed2e27667037a3ad8f5a9e45db473e4d",
+  "bad": [],
+  "seconds": 3.8
+ },
+ "L_knee_rod_I": {
+  "hash": "a7edc512e2494e95bbb10a457fe20133e6d95947206e1c7bc7e28a3789f31889",
+  "bad": [],
+  "seconds": 3.1
+ },
+ "L_knee_rod_O": {
+  "hash": "7e91b67237e1fa1ac316db80c80bc008692441d82032781b8aa5801a34882f61",
+  "bad": [],
+  "seconds": 2.9
+ },
+ "R_knee_crank_I": {
+  "hash": "340dfd517b809fee5c9164fd71515a504744f1adce2ad7f15f6d4c93f7c5a299",
+  "bad": [],
+  "seconds": 5.0
+ },
+ "R_knee_crank_O": {
+  "hash": "42bfd1c7b0f1b6a5483598e93dd55ad317e68c5a5d1f970a24ce4766ea1e1350",
+  "bad": [],
+  "seconds": 3.7
+ },
+ "R_knee_rod_I": {
+  "hash": "fcf28a75eba5b39c6ec93ad1bafa23c0e1bd85ac14ae4acfe6b0308508837f36",
+  "bad": [],
+  "seconds": 2.7
+ },
+ "R_knee_rod_O": {
+  "hash": "1ed08c797c4acbe0902d68a766074146d6be105b38f30281a63a560afc7cd483",
+  "bad": [],
+  "seconds": 2.7
+ }
+}

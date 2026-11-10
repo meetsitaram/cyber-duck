@@ -1,0 +1,470 @@
+[
+ {
+  "group": "LOAD",
+  "item": "shin, under the knee horn",
+  "status": "PASS",
+  "detail": "8.3 MPa (allowed 15): 27 N, section 126 mm2"
+ },
+ {
+  "group": "LOAD",
+  "item": "shin, at the cap",
+  "status": "PASS",
+  "detail": "4.1 MPa (allowed 15): 27 N, section 185 mm2"
+ },
+ {
+  "group": "LOAD",
+  "item": "thigh, hip to knee",
+  "status": "PASS",
+  "detail": "0.4 MPa (allowed 15): 27 N, section 485 mm2"
+ },
+ {
+  "group": "LOAD",
+  "item": "roll bracket, side arm",
+  "status": "PASS",
+  "detail": "6.8 MPa (allowed 15): 27 N, section 83 mm2"
+ },
+ {
+  "group": "LOAD",
+  "item": "roll bracket, front plate",
+  "status": "PASS",
+  "detail": "2.7 MPa (allowed 15): 27 N, section 110 mm2"
+ },
+ {
+  "group": "LOAD",
+  "item": "yaw bracket",
+  "status": "PASS",
+  "detail": "1.0 MPa (allowed 15): 27 N, section 626 mm2"
+ },
+ {
+  "group": "ONE",
+  "item": "L hip yaw lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L hip yaw lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L hip yaw lid",
+  "status": "PASS",
+  "detail": "38 x 27 x 4 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L yaw bracket",
+  "status": "PASS",
+  "detail": "29 x 24 x 16 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L roll bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L roll bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L roll bracket",
+  "status": "PASS",
+  "detail": "36 x 32 x 20 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L thigh frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L thigh frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L thigh frame",
+  "status": "PASS",
+  "detail": "67 x 35 x 52 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L hip pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L hip pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L hip pitch lid",
+  "status": "PASS",
+  "detail": "38 x 4 x 27 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L knee lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L knee lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L knee lid",
+  "status": "PASS",
+  "detail": "27 x 4 x 39 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L shin",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L shin",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L shin",
+  "status": "PASS",
+  "detail": "24 x 33 x 40 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L shoe",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L shoe",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L shoe",
+  "status": "PASS",
+  "detail": "59 x 45 x 28 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "L sole",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "L sole",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "L sole",
+  "status": "PASS",
+  "detail": "59 x 45 x 13 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "chassis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "chassis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "chassis",
+  "status": "PASS",
+  "detail": "74 x 54 x 47 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "neck column",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "neck column",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "neck column",
+  "status": "PASS",
+  "detail": "27 x 29 x 28 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "neck lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "neck lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "neck lid",
+  "status": "PASS",
+  "detail": "27 x 4 x 6 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "head pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "head pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "head pitch lid",
+  "status": "PASS",
+  "detail": "27 x 4 x 6 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "head fork",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "head fork",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "head fork",
+  "status": "PASS",
+  "detail": "46 x 40 x 56 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "head yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "head yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "head yaw bracket",
+  "status": "PASS",
+  "detail": "30 x 42 x 30 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "head roll lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "head roll lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "head roll lid",
+  "status": "PASS",
+  "detail": "4 x 38 x 27 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "head roll spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "head roll spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "head roll spacer",
+  "status": "PASS",
+  "detail": "3 x 18 x 18 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "head roll rear spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "head roll rear spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "head roll rear spacer",
+  "status": "PASS",
+  "detail": "3 x 18 x 18 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": "143 x 103 x 61 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "jaw",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "jaw",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "jaw",
+  "status": "PASS",
+  "detail": "89 x 107 x 44 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "jaw soft insert",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "jaw soft insert",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "jaw soft insert",
+  "status": "PASS",
+  "detail": "28 x 103 x 6 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "face",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "face",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "face",
+  "status": "PASS",
+  "detail": "5 x 100 x 52 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "eye ring",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "eye ring",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "eye ring",
+  "status": "PASS",
+  "detail": "12 x 35 x 35 mm"
+ },
+ {
+  "group": "ONE",
+  "item": "eye iris",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "WALL",
+  "item": "eye iris",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "FIT",
+  "item": "eye iris",
+  "status": "PASS",
+  "detail": "10 x 21 x 21 mm"
+ }
+]

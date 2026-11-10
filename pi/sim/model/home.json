@@ -1,0 +1,44 @@
+{
+ "servos": {
+  "XL330_M288": {
+   "kp": 0.55,
+   "peak_nm": 0.96,
+   "noload_rads": 16.0,
+   "joints": [
+    "left_hip_yaw",
+    "left_hip_roll",
+    "left_hip_pitch",
+    "left_knee",
+    "left_ankle",
+    "neck_pitch",
+    "head_pitch",
+    "head_yaw",
+    "head_roll",
+    "right_hip_yaw",
+    "right_hip_roll",
+    "right_hip_pitch",
+    "right_knee",
+    "right_ankle"
+   ]
+  }
+ },
+ "joint_pos": {
+  "left_hip_pitch": -0.4589830953733815,
+  "left_knee": 0.3380472236211385,
+  "left_ankle": 0.7970303189955011,
+  "right_hip_pitch": 0.4589830953733815,
+  "right_knee": -0.3380472236211385,
+  "right_ankle": -0.7970303189955011,
+  "left_hip_yaw": 0.0,
+  "right_hip_yaw": 0.0,
+  "left_hip_roll": 0.0,
+  "right_hip_roll": 0.0,
+  "neck_pitch": 0.0,
+  "head_pitch": 0.0,
+  "head_yaw": 0.0,
+  "head_roll": 0.0
+ },
+ "root_z": 0.171,
+ "feet_forward_m": 0.04852097941159487,
+ "mass_kg": 0.9784372627072525
+}

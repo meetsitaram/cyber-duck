@@ -1,0 +1,2 @@
+*.sh text eol=lf
+docs/images/assembly/dynamixel/first_person_*.mp4 filter=lfs diff=lfs merge=lfs -text

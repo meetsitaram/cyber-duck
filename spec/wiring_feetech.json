@@ -1,0 +1,476 @@
+{
+ "title": "All-Feetech duck: wiring",
+ "footer": [
+  "Red to +, black to -. Lines that cross are not joined. Measure 5 V at the converter before connecting the Pi.",
+  "Leg power comes straight from the battery, not through the board or neck. Cut the V wire of socket 2's lead. Also on the Pi: IMU, camera."
+ ],
+ "parts": {
+  "battery": {
+   "label": "Battery",
+   "sub": "Zeee 2S 850 mAh, XT30 soldered on",
+   "picture": null,
+   "x": 80,
+   "y": 170,
+   "w": 425,
+   "h": 130,
+   "pins": {
+    "xt30+": [
+     0.74,
+     1.0
+    ],
+    "xt30-": [
+     0.83,
+     1.0
+    ],
+    "balance": [
+     0.3,
+     1.0
+    ]
+   }
+  },
+  "charger": {
+   "label": "Charger",
+   "sub": "unplug the XT30 first",
+   "picture": null,
+   "x": 80,
+   "y": 430,
+   "w": 280,
+   "h": 90,
+   "pins": {
+    "in": [
+     0.52,
+     0.0
+    ]
+   }
+  },
+  "regulator": {
+   "label": "5 V USB converter",
+   "sub": "in the head",
+   "picture": "usb_buck_r.png",
+   "x": 450,
+   "y": 430,
+   "w": 230,
+   "pins": {
+    "in+": [
+     0.95,
+     0.23
+    ],
+    "in-": [
+     0.95,
+     0.84
+    ],
+    "out": [
+     0.0,
+     0.5
+    ]
+   },
+   "label_at": "top"
+  },
+  "pi": {
+   "label": "Raspberry Pi Zero 2 W",
+   "sub": "in the head",
+   "picture": "pi_photo.png",
+   "x": 80,
+   "y": 800,
+   "w": 500,
+   "pins": {
+    "5v": [
+     0.1778975741239892,
+     0.04
+    ],
+    "usb": [
+     0.3692722371967655,
+     0.04
+    ]
+   }
+  },
+  "board": {
+   "label": "Waveshare bus board",
+   "sub": "in the head",
+   "picture": "waveshare_r.png",
+   "x": 790,
+   "y": 170,
+   "w": 340,
+   "pins": {
+    "usb": [
+     0.0,
+     0.76
+    ],
+    "s1": [
+     1.0,
+     0.26
+    ],
+    "s2": [
+     1.0,
+     0.55
+    ],
+    "dc+": [
+     0.103,
+     0.443
+    ],
+    "dc-": [
+     0.103,
+     0.536
+    ],
+    "tap+": [
+     0.103,
+     0.46
+    ],
+    "tap-": [
+     0.103,
+     0.553
+    ]
+   },
+   "label_at": "top"
+  },
+  "hub": {
+   "label": "Leg hub, in the body",
+   "sub": "soldered, heat-shrunk",
+   "picture": null,
+   "x": 825,
+   "y": 720,
+   "w": 310,
+   "h": 170,
+   "pins": {
+    "in+": [
+     0.0,
+     0.55
+    ],
+    "in-": [
+     0.0,
+     0.8
+    ],
+    "up+": [
+     0.08,
+     0.0
+    ],
+    "up-": [
+     0.2,
+     0.0
+    ],
+    "data": [
+     0.75,
+     0.0
+    ],
+    "l": [
+     1.0,
+     0.3
+    ],
+    "r": [
+     1.0,
+     0.75
+    ]
+   }
+  },
+  "head": {
+   "label": "5 head servos",
+   "sub": "beak ... neck, in series",
+   "picture": null,
+   "x": 1400,
+   "y": 215,
+   "w": 320,
+   "h": 120,
+   "pins": {
+    "in": [
+     0.0,
+     0.5
+    ]
+   }
+  },
+  "left": {
+   "label": "Left leg, 5 servos",
+   "sub": "in series",
+   "picture": null,
+   "x": 1400,
+   "y": 640,
+   "w": 320,
+   "h": 120,
+   "pins": {
+    "in": [
+     0.0,
+     0.5
+    ]
+   }
+  },
+  "right": {
+   "label": "Right leg, 5 servos",
+   "sub": "in series",
+   "picture": null,
+   "x": 1400,
+   "y": 880,
+   "w": 320,
+   "h": 120,
+   "pins": {
+    "in": [
+     0.0,
+     0.5
+    ]
+   }
+  }
+ },
+ "wires": [
+  {
+   "from": "battery.xt30+",
+   "to": "hub.in+",
+   "kind": "red",
+   "label": "XT30, 20 AWG",
+   "via": [
+    [
+     394,
+     620
+    ],
+    [
+     800,
+     620
+    ],
+    [
+     800,
+     813
+    ]
+   ]
+  },
+  {
+   "from": "battery.xt30-",
+   "to": "hub.in-",
+   "kind": "black",
+   "via": [
+    [
+     433,
+     650
+    ],
+    [
+     815,
+     650
+    ],
+    [
+     815,
+     856
+    ]
+   ]
+  },
+  {
+   "from": "hub.up+",
+   "to": "board.dc+",
+   "kind": "red",
+   "label": "up the neck",
+   "via": [
+    [
+     850,
+     690
+    ],
+    [
+     755,
+     690
+    ],
+    [
+     755,
+     357
+    ]
+   ]
+  },
+  {
+   "from": "hub.up-",
+   "to": "board.dc-",
+   "kind": "black",
+   "via": [
+    [
+     887,
+     670
+    ],
+    [
+     740,
+     670
+    ],
+    [
+     740,
+     396
+    ]
+   ]
+  },
+  {
+   "from": "regulator.in+",
+   "to": "board.tap+",
+   "kind": "red",
+   "label": "2 short wires",
+   "via": [
+    [
+     768,
+     463
+    ],
+    [
+     768,
+     364
+    ]
+   ]
+  },
+  {
+   "from": "regulator.in-",
+   "to": "board.tap-",
+   "kind": "black",
+   "via": [
+    [
+     782,
+     540
+    ],
+    [
+     782,
+     403
+    ]
+   ]
+  },
+  {
+   "from": "regulator.out",
+   "to": "pi.5v",
+   "kind": "five",
+   "label": "USB to PWR port",
+   "via": [
+    [
+     412,
+     490
+    ],
+    [
+     412,
+     770
+    ],
+    [
+     169,
+     770
+    ]
+   ]
+  },
+  {
+   "from": "pi.usb",
+   "to": "board.usb",
+   "kind": "usb",
+   "label": "USB",
+   "via": [
+    [
+     265,
+     740
+    ],
+    [
+     725,
+     740
+    ],
+    [
+     725,
+     491
+    ]
+   ]
+  },
+  {
+   "from": "board.s1",
+   "to": "head.in",
+   "kind": "servo",
+   "label": "socket 1"
+  },
+  {
+   "from": "board.s2",
+   "to": "hub.data",
+   "kind": "servo",
+   "label": "socket 2: D, G only",
+   "via": [
+    [
+     1270,
+     402
+    ],
+    [
+     1270,
+     680
+    ],
+    [
+     1057,
+     680
+    ]
+   ]
+  },
+  {
+   "from": "hub.l",
+   "to": "left.in",
+   "kind": "servo",
+   "label": "V, G from battery",
+   "label_at": [
+    1385,
+    786
+   ]
+  },
+  {
+   "from": "hub.r",
+   "to": "right.in",
+   "kind": "servo",
+   "label": "V, G from battery",
+   "label_at": [
+    1385,
+    838
+   ]
+  },
+  {
+   "from": "battery.balance",
+   "to": "charger.in",
+   "kind": "charge",
+   "label": "white plug",
+   "via": [
+    [
+     207,
+     430
+    ]
+   ]
+  }
+ ],
+ "kinds": {
+  "red": {
+   "color": [
+    205,
+    40,
+    35
+   ],
+   "width": 6,
+   "name": "Battery +"
+  },
+  "black": {
+   "color": [
+    24,
+    26,
+    30
+   ],
+   "width": 6,
+   "name": "Battery -"
+  },
+  "five": {
+   "color": [
+    232,
+    130,
+    20
+   ],
+   "width": 7,
+   "name": "5 V, USB cable"
+  },
+  "usb": {
+   "color": [
+    30,
+    95,
+    200
+   ],
+   "width": 7,
+   "name": "USB"
+  },
+  "servo": {
+   "color": [
+    120,
+    80,
+    40
+   ],
+   "width": 9,
+   "name": "Servo cable"
+  },
+  "charge": {
+   "color": [
+    130,
+    90,
+    170
+   ],
+   "width": 5,
+   "name": "Charging only"
+  }
+ }
+}

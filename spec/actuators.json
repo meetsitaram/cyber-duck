@@ -1,0 +1,1009 @@
+{
+ "_about": "Feetech STS3215 serial-bus servos, the servo of the LeRobot SO-101 arm (TheRobotStudio/SO-ARM100, Apache-2.0). Body size from SO-101's sts3215_03a_v1 mesh (45.4 x 24.8 x 39.6 mm with the horn; 45.2 x 24.7 x 35 mm body per retailers), mass 55 g. Torques from retailer listings (robotshop, core-electronics, eckstein), not an official datasheet: confirm before ordering. 'C018' is the 12 V, 1:345 version (30 kg.cm stall, 10 kg.cm rated, 0.222 s/60 deg); 'C001' the 7.4 V, 1:345 version (19.5 kg.cm stall at 7.4 V, 6.5 rated, 0.238 s/60 deg). 'box' is the body (x along the case length, output shaft axis along z, shaft offset 'shaft_x' from the case centre); the output horn adds 4.6 mm on the shaft side (that is the mesh's whole 39.6 mm less the 35 mm body; through the shaft, its 20 mm disc tops out 1.55 mm over the far part of the case's face and its centre screw 3.05 mm, the face stepping down 2.5 mm round the horn; spec/robot.py BEARINGS sets the real stack). Joint dynamics (armature, damping, friction) are Open Duck Mini v2 identification of the STS3215 (Open_Duck_Playground joints_properties.xml, Apache-2.0; kp 17.8, forcerange 3.35 N m there). C044 (1:191) and C046 (1:147) are the SO-101 leader arm's lower-ratio 7.4 V versions (same case and mass); their torque, speed, armature and damping are SCALED from the C001 by gear ratio (torque / r, speed x r, armature and damping / r^2), not measured: confirm before ordering. XL330_M288: ROBOTIS Dynamixel XL330-M288-T (e-manual: 34 x 20 x 26 mm, 18 g, 0.52 N m stall and 103 rpm at 5 V, 1:288.35); rated torque about a third of stall (an estimate); armature, damping and friction from microduck's identified 'chosen_actuator' (pollen-robotics/microduck_rl joints_properties.xml, Apache-2.0); shaft_x an estimate: confirm on ROBOTIS's drawing. 'bus' says which serial bus a servo sits on: Feetech and Dynamixel need separate adapters and supply rails (7.4 V and 5 V). XC330_M288: ROBOTIS XC330-M288-T, the XL330's case (20 x 34 x 26 mm) at 23 g with 0.93 N m stall and 81 rpm at 5 V (besomi, generationrobots listings; robotshop says 65 rpm): confirm on the e-manual; dynamics copied from the XL330 (an estimate). Mounting (2026-11-02): STS3215 case screws M2x6 self-tapping on the horn and rear faces, M3x6 into both horns (4 each, the rear horn on the passive rear shaft: no idler bearing needed); XL/XC330 M2x6 tap into the horns (rear boss too), M2x8 tap through the case's 4 frame holes. Prices: STS3215-C044 ~$24 (openelab) / ~$14 (Alibaba, SO-ARM100 BOM); XL330-M288-T ~$24; XC330-M288-T ~$103 (robotshop). The C044's stall torque is listed at 27.4 kg.cm on openelab, against 10.8 scaled here from the C001: confirm on the Feetech datasheet before relying on either. 'steps' (2026-11-03): the STS3215 case's real shape as boxes, from sections of SO-101's mesh: (u from the case's middle toward its far end), half width or null for the whole width, (a from the middle toward the horn face). XL330 and XC330 case, 2026-11-04: from ROBOTIS's own model (Robotis_DYNAMIXEL_XL330_M288_T in the Koch arm's CAD): the 26 mm of the datasheet is the case's 23 mm plus the 3 mm horn; an idler on the rear stands 3 mm proud too. Until then this file said a 26 mm case with a 3 mm horn on it. Both 3-pin sockets are in notches at the case's long edges on its REAR face, 4-14 mm from the shaft, their tops 3.1 mm under the face: a plug stays inside the case's outline, and its wires leave sideways (or to the rear). 'horn_top' (2026-11-04): how far the real horn's outer face stands above the box's plane, measured on ROBOTIS's model (XL/XC330: 3.0 mm) and SO-101's mesh (STS3215: 1.55 mm, its centre screw's head 3.05). Over a bearing the plate is higher than that, and a printed boss bridges the gap: until then the model drew the horn tall enough to reach the plate, and no real horn is. 'horn_hole_depth': how deep the horn's screw holes go from its top: 4.3 mm on the STS3215 (they run on below the box's plane), 3.3 on the XL/XC330, measured on the same models. Steps 5 and 6 (2026-11-04): the raised bands, 1.5 mm high, from 7 mm on the shaft's side of the middle: the real model's interference found a lid's seat floor and the thigh frame in them, 37 and 28 mm3.",
+ "STS3215_C018": {
+  "box": [
+   0.0452,
+   0.0247,
+   0.035
+  ],
+  "shaft_x": 0.0125,
+  "horn_h": 0.0046,
+  "mass": 0.055,
+  "rated_nm": 0.98,
+  "peak_nm": 2.94,
+  "noload_rads": 4.72,
+  "volts": 12.0,
+  "gear": 345.0,
+  "armature_kgm2": 0.028,
+  "damping_nms": 0.6,
+  "friction_nm": 0.052,
+  "bus": "feetech_scs",
+  "case_screw": "M2 x 6 self-tapping (in the servo box)",
+  "case_pilot_d": 0.0015,
+  "case_holes_horn": [
+   [
+    -0.0165,
+    0.0102
+   ],
+   [
+    -0.0165,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "case_holes_rear": [
+   [
+    -0.0203,
+    0.0102
+   ],
+   [
+    -0.0203,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "horn_screw": "M3 x 6 (in the servo box)",
+  "horn_hole_d": 0.0025,
+  "horn_hole_r": 0.00693,
+  "horn_hole_deg": [
+   45,
+   135,
+   225,
+   315
+  ],
+  "horn_centre_screw": "M3 x 6",
+  "rear_horn": true,
+  "horn_r": 0.01,
+  "mount_source": "Feetech STS3215 STEP (SO-ARM100/STEP/SO100/STS3215_03a.step): holes read from its cylinder entities; screws from the LeRobot SO-101 assembly guide",
+  "steps": [
+   [
+    [
+     -0.0226,
+     0.0226
+    ],
+    null,
+    [
+     -0.01405,
+     0.01485
+    ]
+   ],
+   [
+    [
+     -0.0015,
+     0.0226
+    ],
+    null,
+    [
+     0.0148,
+     0.01735
+    ]
+   ],
+   [
+    [
+     0.004,
+     0.0226
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ],
+   [
+    [
+     0.0055,
+     0.0175
+    ],
+    0.0092,
+    [
+     -0.01735,
+     -0.0155
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.0185
+    ],
+    null,
+    [
+     0.0148,
+     0.01625
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.004
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ]
+  ],
+  "horn_stack_real": 0.00305,
+  "horn_top": 0.00155,
+  "horn_screw_top": 0.00305,
+  "horn_hole_depth": 0.0043
+ },
+ "STS3215_C001": {
+  "box": [
+   0.0452,
+   0.0247,
+   0.035
+  ],
+  "shaft_x": 0.0125,
+  "horn_h": 0.0046,
+  "mass": 0.055,
+  "rated_nm": 0.49,
+  "peak_nm": 1.91,
+  "noload_rads": 5.4,
+  "volts": 7.4,
+  "gear": 345.0,
+  "armature_kgm2": 0.028,
+  "damping_nms": 0.6,
+  "friction_nm": 0.052,
+  "bus": "feetech_scs",
+  "case_screw": "M2 x 6 self-tapping (in the servo box)",
+  "case_pilot_d": 0.0015,
+  "case_holes_horn": [
+   [
+    -0.0165,
+    0.0102
+   ],
+   [
+    -0.0165,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "case_holes_rear": [
+   [
+    -0.0203,
+    0.0102
+   ],
+   [
+    -0.0203,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "horn_screw": "M3 x 6 (in the servo box)",
+  "horn_hole_d": 0.0025,
+  "horn_hole_r": 0.00693,
+  "horn_hole_deg": [
+   45,
+   135,
+   225,
+   315
+  ],
+  "horn_centre_screw": "M3 x 6",
+  "rear_horn": true,
+  "horn_r": 0.01,
+  "mount_source": "Feetech STS3215 STEP (SO-ARM100/STEP/SO100/STS3215_03a.step): holes read from its cylinder entities; screws from the LeRobot SO-101 assembly guide",
+  "steps": [
+   [
+    [
+     -0.0226,
+     0.0226
+    ],
+    null,
+    [
+     -0.01405,
+     0.01485
+    ]
+   ],
+   [
+    [
+     -0.0015,
+     0.0226
+    ],
+    null,
+    [
+     0.0148,
+     0.01735
+    ]
+   ],
+   [
+    [
+     0.004,
+     0.0226
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ],
+   [
+    [
+     0.0055,
+     0.0175
+    ],
+    0.0092,
+    [
+     -0.01735,
+     -0.0155
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.0185
+    ],
+    null,
+    [
+     0.0148,
+     0.01625
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.004
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ]
+  ],
+  "horn_stack_real": 0.00305,
+  "horn_top": 0.00155,
+  "horn_screw_top": 0.00305,
+  "horn_hole_depth": 0.0043
+ },
+ "STS3215_C044": {
+  "box": [
+   0.0452,
+   0.0247,
+   0.035
+  ],
+  "shaft_x": 0.0125,
+  "horn_h": 0.0046,
+  "mass": 0.055,
+  "rated_nm": 0.88,
+  "peak_nm": 2.69,
+  "noload_rads": 9.0,
+  "volts": 7.4,
+  "gear": 191.0,
+  "armature_kgm2": 0.0086,
+  "damping_nms": 0.184,
+  "friction_nm": 0.052,
+  "bus": "feetech_scs",
+  "case_screw": "M2 x 6 self-tapping (in the servo box)",
+  "case_pilot_d": 0.0015,
+  "case_holes_horn": [
+   [
+    -0.0165,
+    0.0102
+   ],
+   [
+    -0.0165,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "case_holes_rear": [
+   [
+    -0.0203,
+    0.0102
+   ],
+   [
+    -0.0203,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "horn_screw": "M3 x 6 (in the servo box)",
+  "horn_hole_d": 0.0025,
+  "horn_hole_r": 0.00693,
+  "horn_hole_deg": [
+   45,
+   135,
+   225,
+   315
+  ],
+  "horn_centre_screw": "M3 x 6",
+  "rear_horn": true,
+  "horn_r": 0.01,
+  "mount_source": "Feetech STS3215 STEP (SO-ARM100/STEP/SO100/STS3215_03a.step): holes read from its cylinder entities; screws from the LeRobot SO-101 assembly guide",
+  "steps": [
+   [
+    [
+     -0.0226,
+     0.0226
+    ],
+    null,
+    [
+     -0.01405,
+     0.01485
+    ]
+   ],
+   [
+    [
+     -0.0015,
+     0.0226
+    ],
+    null,
+    [
+     0.0148,
+     0.01735
+    ]
+   ],
+   [
+    [
+     0.004,
+     0.0226
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ],
+   [
+    [
+     0.0055,
+     0.0175
+    ],
+    0.0092,
+    [
+     -0.01735,
+     -0.0155
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.0185
+    ],
+    null,
+    [
+     0.0148,
+     0.01625
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.004
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ]
+  ],
+  "horn_stack_real": 0.00305,
+  "horn_top": 0.00155,
+  "horn_screw_top": 0.00305,
+  "horn_hole_depth": 0.0043
+ },
+ "STS3215_C046": {
+  "box": [
+   0.0452,
+   0.0247,
+   0.035
+  ],
+  "shaft_x": 0.0125,
+  "horn_h": 0.0046,
+  "mass": 0.055,
+  "rated_nm": 0.47,
+  "peak_nm": 1.41,
+  "noload_rads": 11.1,
+  "volts": 7.4,
+  "gear": 147.0,
+  "armature_kgm2": 0.0051,
+  "damping_nms": 0.109,
+  "friction_nm": 0.052,
+  "bus": "feetech_scs",
+  "case_screw": "M2 x 6 self-tapping (in the servo box)",
+  "case_pilot_d": 0.0015,
+  "case_holes_horn": [
+   [
+    -0.0165,
+    0.0102
+   ],
+   [
+    -0.0165,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "case_holes_rear": [
+   [
+    -0.0203,
+    0.0102
+   ],
+   [
+    -0.0203,
+    -0.0102
+   ],
+   [
+    0.0042,
+    0.0102
+   ],
+   [
+    0.0042,
+    -0.0102
+   ]
+  ],
+  "horn_screw": "M3 x 6 (in the servo box)",
+  "horn_hole_d": 0.0025,
+  "horn_hole_r": 0.00693,
+  "horn_hole_deg": [
+   45,
+   135,
+   225,
+   315
+  ],
+  "horn_centre_screw": "M3 x 6",
+  "rear_horn": true,
+  "horn_r": 0.01,
+  "mount_source": "Feetech STS3215 STEP (SO-ARM100/STEP/SO100/STS3215_03a.step): holes read from its cylinder entities; screws from the LeRobot SO-101 assembly guide",
+  "steps": [
+   [
+    [
+     -0.0226,
+     0.0226
+    ],
+    null,
+    [
+     -0.01405,
+     0.01485
+    ]
+   ],
+   [
+    [
+     -0.0015,
+     0.0226
+    ],
+    null,
+    [
+     0.0148,
+     0.01735
+    ]
+   ],
+   [
+    [
+     0.004,
+     0.0226
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ],
+   [
+    [
+     0.0055,
+     0.0175
+    ],
+    0.0092,
+    [
+     -0.01735,
+     -0.0155
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.0185
+    ],
+    null,
+    [
+     0.0148,
+     0.01625
+    ]
+   ],
+   [
+    [
+     -0.007,
+     0.004
+    ],
+    null,
+    [
+     -0.01555,
+     -0.014
+    ]
+   ]
+  ],
+  "horn_stack_real": 0.00305,
+  "horn_top": 0.00155,
+  "horn_screw_top": 0.00305,
+  "horn_hole_depth": 0.0043
+ },
+ "XL330_M288": {
+  "box": [
+   0.034,
+   0.02,
+   0.023
+  ],
+  "shaft_x": 0.0075,
+  "horn_h": 0.003,
+  "mass": 0.018,
+  "rated_nm": 0.17,
+  "peak_nm": 0.52,
+  "noload_rads": 10.8,
+  "volts": 5.0,
+  "gear": 288.35,
+  "armature_kgm2": 0.0018,
+  "damping_nms": 0.053,
+  "friction_nm": 0.0048,
+  "bus": "dynamixel_p2",
+  "case_screw": "M2 x 8 tap (in the servo box)",
+  "case_pilot_d": 0.002,
+  "case_holes_through": [
+   [
+    0.015,
+    0.008
+   ],
+   [
+    0.015,
+    -0.008
+   ],
+   [
+    -0.015,
+    0.008
+   ],
+   [
+    -0.015,
+    -0.008
+   ]
+  ],
+  "horn_screw": "M2 x 6 tap (in the servo box)",
+  "horn_hole_d": 0.0016,
+  "horn_hole_r": 0.006,
+  "horn_hole_deg": [
+   0,
+   90,
+   180,
+   270
+  ],
+  "rear_horn": true,
+  "horn_r": 0.008,
+  "mount_source": "XL330 mesh (microduck_rl assets/xl330.stl, measured only): horn holes on 6 mm radius both ends; 4 frame holes through the case parallel to the shaft at +/-15 mm along, +/-8 mm across; screws from ROBOTIS box contents (6 x M2x6 TAP horn, 10 x M2x8 TAP frame)",
+  "horn_top": 0.003,
+  "horn_hole_depth": 0.0029
+ },
+ "XC330_M288": {
+  "box": [
+   0.034,
+   0.02,
+   0.023
+  ],
+  "shaft_x": 0.0075,
+  "horn_h": 0.003,
+  "mass": 0.023,
+  "rated_nm": 0.31,
+  "peak_nm": 0.93,
+  "noload_rads": 8.5,
+  "volts": 5.0,
+  "gear": 288.35,
+  "armature_kgm2": 0.0018,
+  "damping_nms": 0.053,
+  "friction_nm": 0.0048,
+  "bus": "dynamixel_p2",
+  "case_screw": "M2 x 8 tap (in the servo box)",
+  "case_pilot_d": 0.002,
+  "case_holes_through": [
+   [
+    0.015,
+    0.008
+   ],
+   [
+    0.015,
+    -0.008
+   ],
+   [
+    -0.015,
+    0.008
+   ],
+   [
+    -0.015,
+    -0.008
+   ]
+  ],
+  "horn_screw": "M2 x 6 tap (in the servo box)",
+  "horn_hole_d": 0.0016,
+  "horn_hole_r": 0.006,
+  "horn_hole_deg": [
+   0,
+   90,
+   180,
+   270
+  ],
+  "rear_horn": true,
+  "horn_r": 0.008,
+  "mount_source": "XL330 mesh (microduck_rl assets/xl330.stl, measured only): horn holes on 6 mm radius both ends; 4 frame holes through the case parallel to the shaft at +/-15 mm along, +/-8 mm across; screws from ROBOTIS box contents (6 x M2x6 TAP horn, 10 x M2x8 TAP frame)",
+  "horn_top": 0.003,
+  "horn_hole_depth": 0.0033
+ },
+ "HD1910_C001": {
+  "box": [
+   0.034,
+   0.02,
+   0.023
+  ],
+  "shaft_x": 0.0075,
+  "horn_h": 0.003,
+  "mass": 0.021,
+  "rated_nm": 0.363,
+  "peak_nm": 1.47,
+  "noload_rads": 11.9,
+  "volts": 7.4,
+  "gear": 320.0,
+  "armature_kgm2": 0.0022,
+  "damping_nms": 0.053,
+  "friction_nm": 0.0048,
+  "bus": "feetech_scs",
+  "case_screw": "M2 x 8 tap (in the servo box)",
+  "case_pilot_d": 0.002,
+  "case_holes_through": [
+   [
+    0.015,
+    0.008
+   ],
+   [
+    0.015,
+    -0.008
+   ],
+   [
+    -0.015,
+    0.008
+   ],
+   [
+    -0.015,
+    -0.008
+   ]
+  ],
+  "horn_screw": "M2 x 6 tap (in the servo box)",
+  "horn_hole_d": 0.0016,
+  "horn_hole_r": 0.006,
+  "horn_hole_deg": [
+   0,
+   90,
+   180,
+   270
+  ],
+  "rear_horn": true,
+  "horn_r": 0.008,
+  "mount_source": "FEETECH wiki's HD-1910-C001 drawing (case 34 x 20 x 23, shaft 7.5 off centre, 29 across both horns, horn 16 dia, horn holes 1.6 on a 12 circle, case holes 30 x 16). Torque, speed and current: the seller's sheet copied in LuwuDynamics/xgoduck_hardware docs/BOM.md, at 7.4 V, +/- 10 %; the maker's wiki lists 9 kg cm at 4.8 V and 10 at 6 V, so it may be lower. Armature: the XL330's scaled by gear ratio squared; damping and friction: the XL330's. These three are estimates, for a coreless motor they may not fit",
+  "horn_top": 0.003,
+  "horn_hole_depth": 0.0033
+ },
+ "MG996R": {
+  "bus": "pwm",
+  "bearing": "6704ZZ",
+  "horn_screw": "M3 x 6 (with the horn)",
+  "horn_hole_d": 0.0025,
+  "horn_hole_r": 0.00693,
+  "horn_hole_deg": [
+   45,
+   135,
+   225,
+   315
+  ],
+  "horn_r": 0.01,
+  "rear_horn": false,
+  "horn_hole_depth": 0.003,
+  "case_pilot_d": 0.0025,
+  "armature_kgm2": 0.0086,
+  "damping_nms": 0.184,
+  "friction_nm": 0.052,
+  "box": [
+   0.0407,
+   0.0197,
+   0.037
+  ],
+  "shaft_x": 0.0102,
+  "horn_h": 0.0064,
+  "horn_top": 0.0062,
+  "mass": 0.055,
+  "peak_nm": 1.0787,
+  "rated_nm": 0.3596,
+  "noload_rads": 6.981,
+  "volts": 6.0,
+  "stall_a": 1.4,
+  "deadband_us": 1.0,
+  "spline": "25T",
+  "flange": {
+   "span": 0.054,
+   "t": 0.0025,
+   "holes": [
+    [
+     0.02475,
+     0.005
+    ],
+    [
+     0.02475,
+     -0.005
+    ],
+    [
+     -0.02475,
+     0.005
+    ],
+    [
+     -0.02475,
+     -0.005
+    ]
+   ],
+   "screw": "M3",
+   "hole_d": 0.0045,
+   "under": 0.008300000000000002
+  },
+  "case_screw": "M3 x 16 through the lid foot and the ear, or M3 x 10 through the ear, into the printed rim (self-tapping in a 2.5 mm pilot)",
+  "mount_source": "TowerPro's MG996R page (towerpro.com.tw/product/mg996r/, read 2026-11-06): 55 g, 40.7 x 19.7 x 42.9 mm, 9.4 kg cm at 4.8 V and 11 at 6.0 V, 0.19 s/60 deg at 4.8 V (0.17 in the same page's table) and 0.15 at 6.0 V, 4.8-6.6 V, stall current 1400 mA, idle 10 mA, dead band 1 us, metal gears, JR plug, 32 cm lead. Its drawing's letters, unlabelled on the page (A 42.7, B 40.9, C 37, D 20, E 54, F 26.8 mm), are read here as: height to the spline's top, case length, case height, width, length over the ears, the ears' underside from the bottom. That reading, the ears' 2.5 mm thickness, their hole spacing (49.5 x 10 mm, 4.5 mm holes) and the shaft 10.2 mm off the case's middle are ESTIMATES from the usual drawing of this case: measure one before printing. Rated torque: none is published; a third of stall is assumed for holding (as this repo assumes for the XL330). The horn is a 25T aluminium disc horn, 20 mm across or less, with 4 M3 holes on a 13.9 mm circle and its top 6.2 mm over the case: choose one to match, or change horn_r, horn_hole_r and horn_top. No rear shaft: the far side of a fork turns on a printed hub in a 6704ZZ (spec/robot.py)."
+ },
+ "DS3218": {
+  "bus": "pwm",
+  "bearing": "6704ZZ",
+  "horn_screw": "M3 x 6 (with the horn)",
+  "horn_hole_d": 0.0025,
+  "horn_hole_r": 0.00693,
+  "horn_hole_deg": [
+   45,
+   135,
+   225,
+   315
+  ],
+  "horn_r": 0.01,
+  "rear_horn": false,
+  "horn_hole_depth": 0.003,
+  "case_pilot_d": 0.0025,
+  "armature_kgm2": 0.0086,
+  "damping_nms": 0.184,
+  "friction_nm": 0.052,
+  "box": [
+   0.0399,
+   0.0201,
+   0.0347
+  ],
+  "shaft_x": 0.0102,
+  "horn_h": 0.0064,
+  "horn_top": 0.0062,
+  "mass": 0.06,
+  "peak_nm": 1.9995,
+  "rated_nm": 0.6665,
+  "noload_rads": 7.033,
+  "volts": 6.0,
+  "spline": "25T",
+  "flange": {
+   "span": 0.054,
+   "t": 0.0025,
+   "holes": [
+    [
+     0.02475,
+     0.005
+    ],
+    [
+     0.02475,
+     -0.005
+    ],
+    [
+     -0.02475,
+     0.005
+    ],
+    [
+     -0.02475,
+     -0.005
+    ]
+   ],
+   "screw": "M3",
+   "hole_d": 0.0045,
+   "under": 0.007549999999999998
+  },
+  "case_screw": "M3, as the MG996R",
+  "mount_source": "servodatabase.com/servo/dsservo/ds3218-mg (third party, read 2026-11-06): 60 g, 39.9 x 20.1 x 40.4 mm, 19.0 kg cm and 0.16 s/60 deg at 5.0 V, 21.5 kg cm and 0.14 s/60 deg at 6.8 V, 25T spline, dual bearings, brushed motor. At this duck's 6.0 V both are interpolated linearly: 20.4 kg cm, 0.149 s/60 deg (estimates). No maker's drawing was found: the ears (54 mm across, 2.5 mm thick, holes as the MG996R's), the case height under the spline (34.7 mm) and the shaft offset are taken from the MG996R's case, a standard size: measure one. No stall current was found from the maker: the wiring budget assumes 2.5 A. Rated torque: a third of stall, assumed."
+ },
+ "MG90S": {
+  "bus": "pwm",
+  "bearing": "MR2216ZZ",
+  "horn_screw": "M2 x 5 tap (into the horn)",
+  "horn_hole_d": 0.0016,
+  "horn_hole_r": 0.0055,
+  "horn_hole_deg": [
+   0,
+   90,
+   180,
+   270
+  ],
+  "horn_r": 0.008,
+  "rear_horn": false,
+  "horn_hole_depth": 0.0025,
+  "case_pilot_d": 0.0016,
+  "armature_kgm2": 0.0018,
+  "damping_nms": 0.053,
+  "friction_nm": 0.0048,
+  "box": [
+   0.0228,
+   0.0122,
+   0.0227
+  ],
+  "shaft_x": 0.0059,
+  "horn_h": 0.0064,
+  "horn_top": 0.0062,
+  "mass": 0.0134,
+  "peak_nm": 0.2027,
+  "rated_nm": 0.0676,
+  "noload_rads": 13.09,
+  "volts": 6.0,
+  "deadband_us": 1.0,
+  "flange": {
+   "span": 0.0325,
+   "t": 0.0025,
+   "under": 0.00455,
+   "holes": [
+    [
+     0.0139,
+     0.0
+    ],
+    [
+     -0.0139,
+     0.0
+    ]
+   ],
+   "screw": "M2",
+   "hole_d": 0.002
+  },
+  "case_screw": "M2 x 8 through the lid foot and the ear, or M2 x 6 through the ear, into the printed rim (self-tapping)",
+  "mount_source": "TowerPro's MG90S page (towerpro.com.tw/product/mg90s-3/, read 2026-11-06): 13.4 g, 22.8 x 12.2 x 28.5 mm, 1.8 kg cm at 4.8 V and 2.2 at 6.6 V, 0.10 s/60 deg at 4.8 V and 0.08 at 6.0 V, dead band 1 us, JR plug. Stall at 6.0 V interpolated linearly: 2.07 kg cm (an estimate). The page gives no drawing: the ears (32.5 mm across, 2.5 mm thick, one 2 mm hole each, 27.8 mm apart, their underside 15.9 mm up), the case height under the spline (22.7 mm), the shaft 5.9 mm off the middle and the stall current are ESTIMATES from the usual drawing of this case: measure one. The horn: a round horn trimmed to 16 mm, 4 M2 holes on an 11 mm circle, its top 6.2 mm over the case (an estimate). Armature, damping and friction: the XL330's, placeholders. Rated torque: a third of stall, assumed."
+ },
+ "_sources_hobby": "Read 2026-11-06 for the hobby recipe: towerpro.com.tw/product/mg996r/ and towerpro.com.tw/product/mg90s-3/ (the maker), servodatabase.com/servo/dsservo/ds3218-mg (third party). Each entry's mount_source says which numbers are the page's and which are estimates. 'flange': the 4-ear case, in the servo frame: span over the ears, thickness t, 'under' the ears' underside from the case's middle toward the horn, holes (u, w) from the case's middle. One-way PWM: no position, load or temperature comes back.",
+ "_sources": "Read 2026-11-03. XL330-M288 and XC330-M288: ROBOTIS e-Manual (emanual.robotis.com/docs/en/dxl/x/xl330-m288/), official: 3.7-6.0 V, 5.0 recommended; at 5 V 0.52 and 0.93 N m, 103 and 81 rpm; at 6 V 0.60 and 1.10 N m. STS3215-C001: feetechrc.com via search, 19.5 kg.cm and 52 rpm at 7.4 V; 5 kg.cm rated on a retailer. STS3215-C044: retailers only (Seeed, openelab, rcdrone): 27.4 kg.cm stall, 9 rated, 86 rpm at 7.4 V; WowRobo says about 16 kg.cm. No Feetech page found: 'core motor', so not the C001's motor geared down, and the old values scaled from the C001 were wrong by 2.5 x. STS3215-C046: retailers only: 14.4 kg.cm, 4.8 rated, 106 rpm. STS3215-C018, measured independently (robonine.com): about 35 kg.cm at 12 V; consistent to about 15 kg.cm in motion; overload protection cuts output to about 20 % under prolonged load; backlash 0.57-0.87 deg. The C044 and C046's armature and damping are still scaled from the C001 by gear ratio, which a different motor makes doubtful: measure them.",
+ "SG90": {
+  "box": [
+   0.0227,
+   0.0122,
+   0.0225
+  ],
+  "shaft_x": 0.0056,
+  "horn_h": 0.009,
+  "tower": [
+   0.0057,
+   0.0045
+  ],
+  "spline": {
+   "teeth": 21,
+   "d": 0.0048,
+   "h": 0.0033
+  },
+  "ears": {
+   "span": 0.0323,
+   "t": 0.0025,
+   "under": 0.017,
+   "hole_d": 0.002,
+   "hole_u": 0.0144
+  },
+  "lead": {
+   "out": 0.0012,
+   "w": 0.0036,
+   "a": [
+    0.0006,
+    0.0034
+   ]
+  },
+  "volts": 5.0,
+  "bus": "pwm",
+  "case_screw": "the 2 self-tapping screws in the servo's bag (about M2 x 8), through the ears",
+  "horn_screw": "the servo's own horn screw (in its bag), into the output shaft",
+  "mass": 0.009,
+  "peak_nm": 0.157,
+  "rated_nm": 0.0785,
+  "noload_rads": 10.47,
+  "gear": 300.0,
+  "armature_kgm2": 0.0002,
+  "damping_nms": 0.01,
+  "friction_nm": 0.003,
+  "stall_a": 0.65,
+  "stall_a_measured": 0.36,
+  "colour": "blue",
+  "mount_source": "TowerPro SG90 page and drawing; M5Stack SG90 page (21T spline); see _sources_hobby_micro"
+ },
+ "MG90S_5V": {
+  "box": [
+   0.0228,
+   0.0122,
+   0.0225
+  ],
+  "shaft_x": 0.0056,
+  "horn_h": 0.009,
+  "tower": [
+   0.0057,
+   0.0045
+  ],
+  "spline": {
+   "teeth": 21,
+   "d": 0.0048,
+   "h": 0.0033
+  },
+  "ears": {
+   "span": 0.0323,
+   "t": 0.0025,
+   "under": 0.017,
+   "hole_d": 0.002,
+   "hole_u": 0.0144
+  },
+  "lead": {
+   "out": 0.0012,
+   "w": 0.0036,
+   "a": [
+    0.0006,
+    0.0034
+   ]
+  },
+  "volts": 5.0,
+  "bus": "pwm",
+  "case_screw": "the 2 self-tapping screws in the servo's bag (about M2 x 8), through the ears",
+  "horn_screw": "the servo's own horn screw (in its bag), into the output shaft",
+  "mass": 0.0134,
+  "peak_nm": 0.177,
+  "rated_nm": 0.088,
+  "noload_rads": 10.47,
+  "gear": 300.0,
+  "armature_kgm2": 0.0002,
+  "damping_nms": 0.01,
+  "friction_nm": 0.003,
+  "stall_a": 0.7,
+  "stall_a_measured": 0.7,
+  "colour": "black",
+  "mount_source": "TowerPro MG90S page; case shape taken as the SG90 drawing's (an estimate); see _sources_hobby_micro. Keyed MG90S_5V: the hobby-servo duck models the same servo at 6 V as MG90S",
+  "name": "MG90S"
+ },
+ "_sources_hobby_micro": "SG90 and MG90S (2026-11-06, for the nano recipe), each page opened and read that day. SG90: TowerPro's page (towerpro.com.tw/product/sg90-7/): 9 g, 23 x 12.2 x 29 mm, 1.8 kg.cm stall at 4.8 V, 0.1 s/60 deg at 4.8 V, 4.8 V operating, 1 us dead band, POM gears, 25 cm lead; its drawing's table: A 30.3 (bottom to the spline's top), B 22.7 (case length), C 27 (bottom to the top of the gear tower), D 12.2 (width), E 32.3 (across the ears), F 17 (bottom to the ears' underside). The drawing is not to scale. M5Stack's SG90 page (docs.m5stack.com/en/accessory/SG90_Servo) says less: 1.6 kg.cm at 4.8 V, 1.8 at 6.0 V, 4.8-6.0 V, and gives the spline as 21T. Pololu's micro-servo wheels (pololu.com/product/4909) are for '4.8 mm diameter splines with 21 teeth' (named for FEETECH's FS90R, the same 9 g class): the 4.8 mm is from there, not from TowerPro. Stall current: ProtoSupplies measured 360 mA on an SG90 (protosupplies.com/product/servo-motor-micro-sg90/); PCBoard.ca lists up to about 650 mA (pcboard.ca/sg90-servo). MG90S: TowerPro (towerpro.com.tw/product/mg90s-3/): 13.4 g, 22.8 x 12.2 x 28.5 mm, 1.8 kg.cm at 4.8 V and 2.2 at 6.6 V, 0.10 s/60 deg at 4.8 V and 0.08 at 6.0 V, 1 us dead band, 6061-T6 aluminium gears and shaft; ProtoSupplies measured 700 mA at stall (protosupplies.com/product/servo-motor-micro-mg90s/). Design figures: peak_nm is the LOWER published stall at about 5 V (SG90 1.6 kg.cm = 0.157 N m, M5Stack's; MG90S 1.8 kg.cm = 0.177 N m, TowerPro's): a 5 V supply. rated_nm is half of that: not a maker's rating (hobby servos have none) but the nano duck's limit for a held pose (tools/checks.py holds continuous poses to rated). Estimated, not published: the case's top at 22.5 mm (C less the tower), the ears 2.5 mm thick, the ear holes 2.0 mm at +/-14.4 mm from the case's middle, the shaft 5.6 mm from the middle (all read off the drawing, which is not to scale: measure one), the MG90S's case taken as the SG90's, and armature, damping and friction (scaled guesses, for a simulation only). Measure a real servo before printing the brackets."
+}

@@ -1,0 +1,1220 @@
+[
+ {
+  "group": "targets",
+  "item": "height",
+  "status": "WARN",
+  "detail": "0.318 m: 1.21 x microduck's 0.264 m (proportions are checked at this scale)"
+ },
+ {
+  "group": "targets",
+  "item": "head_length_m",
+  "status": "PASS",
+  "detail": "0.155 (microduck 0.123 x 1.21 = 0.148 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "head_width_m",
+  "status": "PASS",
+  "detail": "0.108 (microduck 0.092 x 1.21 = 0.111 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "head_height_m",
+  "status": "PASS",
+  "detail": "0.071 (microduck 0.059 x 1.21 = 0.071 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "head_bottom_z",
+  "status": "PASS",
+  "detail": "0.247 (microduck 0.205 x 1.21 = 0.247 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "neck_pitch_z",
+  "status": "PASS",
+  "detail": "0.166 (microduck 0.139 x 1.21 = 0.168 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "hip_pitch_z",
+  "status": "PASS",
+  "detail": "0.118 (microduck 0.089 x 1.21 = 0.107 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "body_width_m",
+  "status": "PASS",
+  "detail": "0.080 (microduck 0.064 x 1.21 = 0.077 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "overall_width_m",
+  "status": "PASS",
+  "detail": "0.180 (microduck 0.141 x 1.21 = 0.170 +/- 10 %)"
+ },
+ {
+  "group": "targets",
+  "item": "foot_length_m",
+  "status": "PASS",
+  "detail": "0.069 (microduck 0.054 x 1.21 = 0.065 +/- 10 %)"
+ },
+ {
+  "group": "mass",
+  "item": "total",
+  "status": "PASS",
+  "detail": "1.649 kg bottom-up (budget 1.65 kg; microduck 0.8 kg)"
+ },
+ {
+  "group": "printable",
+  "item": "largest part",
+  "status": "PASS",
+  "detail": "263 printed parts; largest head: 155 mm, on a 256 mm bed"
+ },
+ {
+  "group": "axis",
+  "item": "L_hip_yaw",
+  "status": "PASS",
+  "detail": "STS3215_C046 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "R_hip_yaw",
+  "status": "PASS",
+  "detail": "STS3215_C046 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "L_hip_roll",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "R_hip_roll",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "L_hip_pitch",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "R_hip_pitch",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "L_knee",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "R_knee",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "L_ankle_pitch",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "R_ankle_pitch",
+  "status": "PASS",
+  "detail": "STS3215_C044 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "neck_pitch",
+  "status": "PASS",
+  "detail": "XC330_M288 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "head_pitch",
+  "status": "PASS",
+  "detail": "XL330_M288 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "head_yaw",
+  "status": "PASS",
+  "detail": "XL330_M288 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "head_roll",
+  "status": "PASS",
+  "detail": "XL330_M288 0.0 mm off the axis"
+ },
+ {
+  "group": "axis",
+  "item": "beak",
+  "status": "PASS",
+  "detail": "XL330_M288 0.0 mm off the axis"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip yaw horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on trunk"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip yaw horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on trunk"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip yaw horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_hip_yaw_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip roll horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_hip_yaw_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip yaw horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_hip_yaw_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip roll horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_hip_yaw_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip roll horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_hip_roll_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip pitch horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_hip_roll_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip roll horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_hip_roll_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip pitch horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_hip_roll_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip pitch horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_hip_pitch_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L knee horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_hip_pitch_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip pitch horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_hip_pitch_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R knee horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_hip_pitch_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L ankle bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_knee_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L knee horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_knee_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R ankle bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_knee_link"
+ },
+ {
+  "group": "bearing",
+  "item": "R knee horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_knee_link"
+ },
+ {
+  "group": "bearing",
+  "item": "L ankle bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on L_foot"
+ },
+ {
+  "group": "bearing",
+  "item": "R ankle bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on R_foot"
+ },
+ {
+  "group": "bearing",
+  "item": "head yaw horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on head_pitch_link"
+ },
+ {
+  "group": "bearing",
+  "item": "head yaw horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on head_yaw_link"
+ },
+ {
+  "group": "bearing",
+  "item": "head roll horn bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on head_yaw_link"
+ },
+ {
+  "group": "bearing",
+  "item": "head roll rear bearing outer race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on head_yaw_link"
+ },
+ {
+  "group": "bearing",
+  "item": "head roll horn bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on head"
+ },
+ {
+  "group": "bearing",
+  "item": "head roll rear bearing inner race",
+  "status": "PASS",
+  "detail": "0.0 mm off the axis, on head"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip yaw horn races",
+  "status": "PASS",
+  "detail": "on ['trunk', 'L_hip_yaw_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip yaw horn races",
+  "status": "PASS",
+  "detail": "on ['trunk', 'R_hip_yaw_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip roll horn races",
+  "status": "PASS",
+  "detail": "on ['L_hip_yaw_link', 'L_hip_roll_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip roll horn races",
+  "status": "PASS",
+  "detail": "on ['R_hip_yaw_link', 'R_hip_roll_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "L hip pitch horn races",
+  "status": "PASS",
+  "detail": "on ['L_hip_roll_link', 'L_hip_pitch_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "R hip pitch horn races",
+  "status": "PASS",
+  "detail": "on ['R_hip_roll_link', 'R_hip_pitch_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "L knee horn races",
+  "status": "PASS",
+  "detail": "on ['L_hip_pitch_link', 'L_knee_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "R knee horn races",
+  "status": "PASS",
+  "detail": "on ['R_hip_pitch_link', 'R_knee_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "L ankle races",
+  "status": "PASS",
+  "detail": "on ['L_knee_link', 'L_foot']"
+ },
+ {
+  "group": "bearing",
+  "item": "R ankle races",
+  "status": "PASS",
+  "detail": "on ['R_knee_link', 'R_foot']"
+ },
+ {
+  "group": "bearing",
+  "item": "head yaw horn races",
+  "status": "PASS",
+  "detail": "on ['head_pitch_link', 'head_yaw_link']"
+ },
+ {
+  "group": "bearing",
+  "item": "head roll horn races",
+  "status": "PASS",
+  "detail": "on ['head_yaw_link', 'head']"
+ },
+ {
+  "group": "bearing",
+  "item": "head roll rear races",
+  "status": "PASS",
+  "detail": "on ['head_yaw_link', 'head']"
+ },
+ {
+  "group": "static",
+  "item": "zero pose",
+  "status": "PASS",
+  "detail": "0 overlaps"
+ },
+ {
+  "group": "covers",
+  "item": "motors clear of the covers",
+  "status": "PASS",
+  "detail": "0 cover / motor crossings"
+ },
+ {
+  "group": "connect",
+  "item": "trunk structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "trunk covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_yaw_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_yaw_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_yaw_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_yaw_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_roll_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_roll_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_roll_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_roll_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_pitch_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_pitch_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_pitch_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_pitch_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_knee_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_knee_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_knee_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_knee_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_foot structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_foot covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_foot structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_foot covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "neck_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "neck_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head_pitch_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head_pitch_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head_yaw_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head_yaw_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "beak_link structure",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "beak_link covers mounted",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_yaw axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_yaw axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_roll axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_roll axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_hip_pitch axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_hip_pitch axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_knee axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_knee axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "L_ankle_pitch axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "R_ankle_pitch axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "neck_pitch axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head_pitch axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head_yaw axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "head_roll axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "connect",
+  "item": "beak axis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "skin",
+  "item": "top plate",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "battery 2S 850 mAh",
+  "status": "PASS",
+  "detail": "0.30 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "L 5 V regulator",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "L regulator arm 0",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "L regulator arm 1",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "L regulator drop 0",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "L regulator drop 1",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "IMU",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "leg bus splice",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "battery strap",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "body post 0",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "body post 1",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "head top plate wide",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "L head rail",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "R head rail",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "R head hinge boss",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi mount",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi mount 2",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi plate",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi boss 0",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi boss 1",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi boss 2",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi boss 3",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi Zero 2 W",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "camera",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi board tab",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "bus board standoff 0",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "bus board standoff 1",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "bus board standoff 2",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "bus board standoff 3",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Waveshare bus board",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "rear board plate",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "rear board plate low",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "rear board plate low 2",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "rear board foot",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "rear board foot 2",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "leg bus board",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "L base riser top",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "head 5 V regulator",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "head regulator plug",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "skin",
+  "item": "Pi base tab",
+  "status": "PASS",
+  "detail": "0.00 % outside the skin"
+ },
+ {
+  "group": "sweep",
+  "item": "L_hip_yaw",
+  "status": "PASS",
+  "detail": "[-0.45, +0.45] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "L_hip_roll",
+  "status": "PASS",
+  "detail": "[-0.33, +0.33] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "L_hip_pitch",
+  "status": "PASS",
+  "detail": "[-1.30, +0.43] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "L_knee",
+  "status": "PASS",
+  "detail": "[-1.10, +1.05] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "L_ankle_pitch",
+  "status": "PASS",
+  "detail": "[-1.30, +1.30] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "neck_pitch",
+  "status": "PASS",
+  "detail": "[-0.15, +1.60] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "head_pitch",
+  "status": "WARN",
+  "detail": "[-1.60, +1.60] rad clear; lower: head / trunk: lower shell / body at -0.93 rad (pose-dependent)"
+ },
+ {
+  "group": "sweep",
+  "item": "head_yaw",
+  "status": "PASS",
+  "detail": "[-2.50, +2.50] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "head_roll",
+  "status": "PASS",
+  "detail": "[-0.33, +0.33] rad clear"
+ },
+ {
+  "group": "sweep",
+  "item": "beak",
+  "status": "PASS",
+  "detail": "[+0.00, +0.40] rad clear"
+ },
+ {
+  "group": "poses",
+  "item": "stand (microduck stance): balance",
+  "status": "PASS",
+  "detail": "CoM 2.3 cm inside the feet"
+ },
+ {
+  "group": "poses",
+  "item": "stand (microduck stance): within limits",
+  "status": "PASS",
+  "detail": "yes"
+ },
+ {
+  "group": "poses",
+  "item": "stand (microduck stance): collisions",
+  "status": "PASS",
+  "detail": "none"
+ },
+ {
+  "group": "poses",
+  "item": "crouch: balance",
+  "status": "PASS",
+  "detail": "CoM 2.3 cm inside the feet"
+ },
+ {
+  "group": "poses",
+  "item": "crouch: within limits",
+  "status": "PASS",
+  "detail": "yes"
+ },
+ {
+  "group": "poses",
+  "item": "crouch: collisions",
+  "status": "PASS",
+  "detail": "none"
+ },
+ {
+  "group": "poses",
+  "item": "deep squat: balance",
+  "status": "PASS",
+  "detail": "CoM 2.3 cm inside the feet"
+ },
+ {
+  "group": "poses",
+  "item": "deep squat: within limits",
+  "status": "PASS",
+  "detail": "yes"
+ },
+ {
+  "group": "poses",
+  "item": "deep squat: collisions",
+  "status": "PASS",
+  "detail": "none"
+ },
+ {
+  "group": "poses",
+  "item": "single-leg stance (walking): balance",
+  "status": "WARN",
+  "detail": "CoM 3.6 cm outside the stance foot: a dynamic gait, no static single-leg balance (no ankle roll)"
+ },
+ {
+  "group": "poses",
+  "item": "single-leg stance (walking): within limits",
+  "status": "PASS",
+  "detail": "yes"
+ },
+ {
+  "group": "poses",
+  "item": "single-leg stance (walking): collisions",
+  "status": "PASS",
+  "detail": "none"
+ },
+ {
+  "group": "poses",
+  "item": "floor pick: balance",
+  "status": "PASS",
+  "detail": "CoM 2.3 cm inside the feet"
+ },
+ {
+  "group": "poses",
+  "item": "floor pick: within limits",
+  "status": "PASS",
+  "detail": "yes"
+ },
+ {
+  "group": "poses",
+  "item": "floor pick: collisions",
+  "status": "PASS",
+  "detail": "none"
+ },
+ {
+  "group": "poses",
+  "item": "head tucked in: balance",
+  "status": "PASS",
+  "detail": "CoM 2.3 cm inside the feet"
+ },
+ {
+  "group": "poses",
+  "item": "head tucked in: within limits",
+  "status": "PASS",
+  "detail": "yes"
+ },
+ {
+  "group": "poses",
+  "item": "head tucked in: collisions",
+  "status": "PASS",
+  "detail": "none"
+ },
+ {
+  "group": "poses",
+  "item": "head forward and down, beak open: balance",
+  "status": "PASS",
+  "detail": "CoM 2.3 cm inside the feet"
+ },
+ {
+  "group": "poses",
+  "item": "head forward and down, beak open: within limits",
+  "status": "PASS",
+  "detail": "yes"
+ },
+ {
+  "group": "poses",
+  "item": "head forward and down, beak open: collisions",
+  "status": "PASS",
+  "detail": "none"
+ },
+ {
+  "group": "torque",
+  "item": "neck_pitch",
+  "status": "PASS",
+  "detail": "0.21 N m in 'head tucked in' vs rated 0.31 N m (1 x XC330_M288): 67 % used"
+ },
+ {
+  "group": "torque",
+  "item": "head_pitch",
+  "status": "PASS",
+  "detail": "0.21 N m in 'head forward and down, beak open' vs rated 0.52 N m (1 x XL330_M288): 59 % used"
+ },
+ {
+  "group": "torque",
+  "item": "R_knee",
+  "status": "PASS",
+  "detail": "0.33 N m in 'crouch' vs rated 0.88 N m (1 x STS3215_C044): 37 % used"
+ },
+ {
+  "group": "torque",
+  "item": "L_knee",
+  "status": "PASS",
+  "detail": "0.33 N m in 'crouch' vs rated 0.88 N m (1 x STS3215_C044): 37 % used"
+ },
+ {
+  "group": "torque",
+  "item": "L_hip_roll",
+  "status": "PASS",
+  "detail": "0.41 N m x 1.5 in 'single-leg stance (walking)' vs peak 2.69 N m (1 x STS3215_C044): 23 % used"
+ },
+ {
+  "group": "torque",
+  "item": "L_hip_yaw",
+  "status": "PASS",
+  "detail": "0.14 N m x 1.5 in 'single-leg stance (walking)' vs peak 1.41 N m (1 x STS3215_C046): 15 % used"
+ },
+ {
+  "group": "torque",
+  "item": "L_hip_pitch",
+  "status": "PASS",
+  "detail": "0.22 N m x 1.5 in 'floor pick' vs peak 2.69 N m (1 x STS3215_C044): 12 % used"
+ },
+ {
+  "group": "torque",
+  "item": "R_hip_pitch",
+  "status": "PASS",
+  "detail": "0.22 N m x 1.5 in 'floor pick' vs peak 2.69 N m (1 x STS3215_C044): 12 % used"
+ },
+ {
+  "group": "torque",
+  "item": "R_hip_roll",
+  "status": "PASS",
+  "detail": "0.10 N m in 'crouch' vs rated 0.88 N m (1 x STS3215_C044): 11 % used"
+ },
+ {
+  "group": "torque",
+  "item": "R_hip_yaw",
+  "status": "PASS",
+  "detail": "0.05 N m in 'head tucked in' vs rated 0.47 N m (1 x STS3215_C046): 10 % used"
+ },
+ {
+  "group": "torque",
+  "item": "beak",
+  "status": "PASS",
+  "detail": "0.02 N m in 'head tucked in' vs rated 0.17 N m (1 x XL330_M288): 9 % used"
+ },
+ {
+  "group": "torque",
+  "item": "L_ankle_pitch",
+  "status": "PASS",
+  "detail": "0.16 N m x 1.5 in 'single-leg stance (walking)' vs peak 2.69 N m (1 x STS3215_C044): 9 % used"
+ },
+ {
+  "group": "torque",
+  "item": "R_ankle_pitch",
+  "status": "PASS",
+  "detail": "0.08 N m in 'stand (microduck stance)' vs rated 0.88 N m (1 x STS3215_C044): 9 % used"
+ },
+ {
+  "group": "torque",
+  "item": "head_roll",
+  "status": "PASS",
+  "detail": "0.00 N m in 'crouch' vs rated 0.17 N m (1 x XL330_M288): 1 % used"
+ },
+ {
+  "group": "torque",
+  "item": "head_yaw",
+  "status": "PASS",
+  "detail": "0.00 N m x 1.5 in 'floor pick' vs peak 0.52 N m (1 x XL330_M288): 0 % used"
+ }
+]

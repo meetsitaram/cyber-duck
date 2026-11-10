@@ -1,0 +1,2156 @@
+[
+ {
+  "group": "ORIENT",
+  "item": "L hip yaw lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 561 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L hip yaw lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L hip yaw lid",
+  "status": "PASS",
+  "detail": "37 x 26 x 3 mm, 561 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L hip yaw lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "L yaw bracket",
+  "status": "PASS",
+  "detail": "241 mm2 overhang, 250 mm2 on the bed, 23 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L yaw bracket",
+  "status": "PASS",
+  "detail": "15 x 28 x 23 mm, 250 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "L roll bracket",
+  "status": "PASS",
+  "detail": "209 mm2 overhang, 209 mm2 on the bed, 19 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L roll bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L roll bracket",
+  "status": "PASS",
+  "detail": "35 x 31 x 19 mm, 209 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L roll bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "L thigh frame",
+  "status": "PASS",
+  "detail": "2118 mm2 overhang, 89 mm2 on the bed, 34 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L thigh frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L thigh frame",
+  "status": "PASS",
+  "detail": "51 x 66 x 34 mm, 89 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L thigh frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "L thigh frame",
+  "status": "WARN",
+  "detail": "2118 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "L hip pitch lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 561 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L hip pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L hip pitch lid",
+  "status": "PASS",
+  "detail": "26 x 37 x 3 mm, 561 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L hip pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "L knee lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 540 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L knee lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L knee lid",
+  "status": "PASS",
+  "detail": "38 x 26 x 3 mm, 540 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L knee lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "L thigh cover",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 2900 mm2 on the bed, 34 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L thigh cover",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L thigh cover",
+  "status": "PASS",
+  "detail": "55 x 70 x 34 mm, 2900 mm2 on the bed"
+ },
+ {
+  "group": "SKIN",
+  "item": "L thigh cover",
+  "status": "PASS",
+  "detail": "2 screws drill it: ['L thigh cover screw hip', 'L thigh cover screw knee']"
+ },
+ {
+  "group": "HOLES",
+  "item": "L thigh cover",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "L shin",
+  "status": "PASS",
+  "detail": "399 mm2 overhang, 133 mm2 on the bed, 23 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L shin",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L shin",
+  "status": "PASS",
+  "detail": "38 x 32 x 23 mm, 133 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L shin",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "L shin",
+  "status": "WARN",
+  "detail": "399 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "L shoe",
+  "status": "PASS",
+  "detail": "89 mm2 overhang, 1902 mm2 on the bed, 26 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L shoe",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L shoe",
+  "status": "PASS",
+  "detail": "58 x 44 x 26 mm, 1902 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L shoe",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "L sole",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 2362 mm2 on the bed, 12 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "L sole",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "L sole",
+  "status": "PASS",
+  "detail": "58 x 44 x 12 mm, 2362 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "L sole",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R hip yaw lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 561 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R hip yaw lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R hip yaw lid",
+  "status": "PASS",
+  "detail": "37 x 26 x 3 mm, 561 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R hip yaw lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R yaw bracket",
+  "status": "PASS",
+  "detail": "241 mm2 overhang, 250 mm2 on the bed, 23 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R yaw bracket",
+  "status": "PASS",
+  "detail": "15 x 28 x 23 mm, 250 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R roll bracket",
+  "status": "PASS",
+  "detail": "194 mm2 overhang, 209 mm2 on the bed, 19 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R roll bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R roll bracket",
+  "status": "PASS",
+  "detail": "35 x 31 x 19 mm, 209 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R roll bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R thigh frame",
+  "status": "PASS",
+  "detail": "2118 mm2 overhang, 89 mm2 on the bed, 34 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R thigh frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R thigh frame",
+  "status": "PASS",
+  "detail": "51 x 66 x 34 mm, 89 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R thigh frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "R thigh frame",
+  "status": "WARN",
+  "detail": "2118 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "R hip pitch lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 561 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R hip pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R hip pitch lid",
+  "status": "PASS",
+  "detail": "26 x 37 x 3 mm, 561 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R hip pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R knee lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 540 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R knee lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R knee lid",
+  "status": "PASS",
+  "detail": "38 x 26 x 3 mm, 540 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R knee lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R thigh cover",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 2900 mm2 on the bed, 34 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R thigh cover",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R thigh cover",
+  "status": "PASS",
+  "detail": "55 x 70 x 34 mm, 2900 mm2 on the bed"
+ },
+ {
+  "group": "SKIN",
+  "item": "R thigh cover",
+  "status": "PASS",
+  "detail": "2 screws drill it: ['R thigh cover screw hip', 'R thigh cover screw knee']"
+ },
+ {
+  "group": "HOLES",
+  "item": "R thigh cover",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R shin",
+  "status": "PASS",
+  "detail": "399 mm2 overhang, 133 mm2 on the bed, 23 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R shin",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R shin",
+  "status": "PASS",
+  "detail": "38 x 32 x 23 mm, 133 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R shin",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "R shin",
+  "status": "WARN",
+  "detail": "399 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "R shoe",
+  "status": "PASS",
+  "detail": "89 mm2 overhang, 1902 mm2 on the bed, 26 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R shoe",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R shoe",
+  "status": "PASS",
+  "detail": "58 x 44 x 26 mm, 1902 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R shoe",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "R sole",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 2362 mm2 on the bed, 12 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "R sole",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "R sole",
+  "status": "PASS",
+  "detail": "58 x 44 x 12 mm, 2362 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "R sole",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "chassis",
+  "status": "PASS",
+  "detail": "983 mm2 overhang, 241 mm2 on the bed, 73 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "chassis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "chassis",
+  "status": "PASS",
+  "detail": "45 x 53 x 73 mm, 241 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "chassis",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "chassis",
+  "status": "WARN",
+  "detail": "983 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "body shell",
+  "status": "PASS",
+  "detail": "1460 mm2 overhang, 879 mm2 on the bed, 98 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "body shell",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "body shell",
+  "status": "PASS",
+  "detail": "38 x 74 x 98 mm, 879 mm2 on the bed"
+ },
+ {
+  "group": "SKIN",
+  "item": "body shell",
+  "status": "PASS",
+  "detail": "2 screws drill it: ['body screw 0', 'body screw 1']"
+ },
+ {
+  "group": "HOLES",
+  "item": "body shell",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "body shell",
+  "status": "WARN",
+  "detail": "1460 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "neck column",
+  "status": "PASS",
+  "detail": "198 mm2 overhang, 89 mm2 on the bed, 27 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "neck column",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "neck column",
+  "status": "PASS",
+  "detail": "26 x 28 x 27 mm, 89 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "neck column",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "neck lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 73 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "neck lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "neck lid",
+  "status": "PASS",
+  "detail": "5 x 26 x 3 mm, 73 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "neck lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "head pitch lid",
+  "status": "PASS",
+  "detail": "1 mm2 overhang, 73 mm2 on the bed, 2 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head pitch lid",
+  "status": "PASS",
+  "detail": "5 x 26 x 2 mm, 73 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head pitch lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "head fork",
+  "status": "PASS",
+  "detail": "416 mm2 overhang, 389 mm2 on the bed, 45 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head fork",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head fork",
+  "status": "PASS",
+  "detail": "55 x 39 x 45 mm, 389 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head fork",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "head fork",
+  "status": "WARN",
+  "detail": "416 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "head yaw sheet",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 539 mm2 on the bed, 4 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head yaw sheet",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head yaw sheet",
+  "status": "PASS",
+  "detail": "37 x 26 x 4 mm, 539 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head yaw sheet",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "head yaw bracket",
+  "status": "PASS",
+  "detail": "223 mm2 overhang, 451 mm2 on the bed, 41 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head yaw bracket",
+  "status": "PASS",
+  "detail": "29 x 29 x 41 mm, 451 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head yaw bracket",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "head roll lid",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 561 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head roll lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head roll lid",
+  "status": "PASS",
+  "detail": "26 x 37 x 3 mm, 561 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head roll lid",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "head roll spacer",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 171 mm2 on the bed, 2 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head roll spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head roll spacer",
+  "status": "PASS",
+  "detail": "17 x 17 x 2 mm, 171 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head roll spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "head roll rear spacer",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 203 mm2 on the bed, 2 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head roll rear spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head roll rear spacer",
+  "status": "PASS",
+  "detail": "17 x 17 x 2 mm, 203 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head roll rear spacer",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": "5467 mm2 overhang, 300 mm2 on the bed, 141 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": "60 x 101 x 141 mm, 300 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "head frame",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "head frame",
+  "status": "WARN",
+  "detail": "5467 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "hood",
+  "status": "PASS",
+  "detail": "3059 mm2 overhang, 276 mm2 on the bed, 150 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "hood",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "hood",
+  "status": "PASS",
+  "detail": "58 x 106 x 150 mm, 276 mm2 on the bed"
+ },
+ {
+  "group": "SKIN",
+  "item": "hood",
+  "status": "PASS",
+  "detail": "3 screws drill it: ['R hinge screw', 'hood rear screw 0', 'hood rear screw 1']"
+ },
+ {
+  "group": "HOLES",
+  "item": "hood",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "hood",
+  "status": "WARN",
+  "detail": "3059 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "jaw",
+  "status": "PASS",
+  "detail": "900 mm2 overhang, 1084 mm2 on the bed, 88 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "jaw",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "jaw",
+  "status": "PASS",
+  "detail": "42 x 106 x 88 mm, 1084 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "jaw",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "SUPPORT",
+  "item": "jaw",
+  "status": "WARN",
+  "detail": "900 mm2 needs support or a bridge: check it in the slicer"
+ },
+ {
+  "group": "ORIENT",
+  "item": "jaw soft insert",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 2661 mm2 on the bed, 5 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "jaw soft insert",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "jaw soft insert",
+  "status": "PASS",
+  "detail": "27 x 101 x 5 mm, 2661 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "jaw soft insert",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "mouth roof",
+  "status": "PASS",
+  "detail": "15 mm2 overhang, 3935 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "mouth roof",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "mouth roof",
+  "status": "PASS",
+  "detail": "40 x 101 x 3 mm, 3935 mm2 on the bed"
+ },
+ {
+  "group": "SKIN",
+  "item": "mouth roof",
+  "status": "PASS",
+  "detail": "0 screws drill it: []"
+ },
+ {
+  "group": "HOLES",
+  "item": "mouth roof",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "face",
+  "status": "PASS",
+  "detail": "40 mm2 overhang, 4167 mm2 on the bed, 3 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "face",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "face",
+  "status": "PASS",
+  "detail": "50 x 99 x 3 mm, 4167 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "face",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "eye ring",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 822 mm2 on the bed, 11 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "eye ring",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "eye ring",
+  "status": "PASS",
+  "detail": "34 x 34 x 11 mm, 822 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "eye ring",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "ORIENT",
+  "item": "eye iris",
+  "status": "PASS",
+  "detail": "0 mm2 overhang, 207 mm2 on the bed, 9 mm tall"
+ },
+ {
+  "group": "PIECES",
+  "item": "eye iris",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "BED",
+  "item": "eye iris",
+  "status": "PASS",
+  "detail": "20 x 20 x 9 mm, 207 mm2 on the bed"
+ },
+ {
+  "group": "HOLES",
+  "item": "eye iris",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "MATE",
+  "item": "parts that share a link",
+  "status": "PASS",
+  "detail": "39 parts: 0 clashes"
+ },
+ {
+  "group": "HEADS",
+  "item": "body screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "body screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw rear 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw rear 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw rear 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch fork screw rear 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll cradle screw near h0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll cradle screw near h1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll cradle screw near r0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll cradle screw near r1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip yaw fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll cradle screw near h0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll cradle screw near h1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll cradle screw near r0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll cradle screw near r1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip yaw fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw rear 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw rear 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw rear 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip roll fork screw rear 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw rear 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw rear 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw rear 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip roll fork screw rear 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L thigh cover screw hip",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L thigh cover screw knee",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L hip pitch cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R thigh cover screw hip",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R thigh cover screw knee",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hip pitch cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L shin arm screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L shin arm screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L knee fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle pitch cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle pitch cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R shin arm screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R shin arm screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R knee fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle pitch cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle pitch cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle ear screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle ear screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle ear screw 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle ear screw 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L shoe bottom screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L shoe bottom screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle pitch fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle pitch fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle pitch fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "L ankle pitch fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle ear screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle ear screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle ear screw 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle ear screw 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R shoe bottom screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R shoe bottom screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle pitch fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle pitch fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle pitch fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R ankle pitch fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "neck pitch cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw rear 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw rear 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw rear 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head pitch fork screw rear 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head yaw fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll cradle screw horn face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll cradle screw horn face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "R hinge screw",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "Pi screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "Pi screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "Pi screw 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "Pi screw 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board top screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board rear screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board top screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board rear screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board top screw 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board rear screw 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board top screw 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "bus board rear screw 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "hood rear screw 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "hood rear screw 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw rear 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw rear 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw rear 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "head roll fork screw rear 3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak cradle screw rear face 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak cradle screw rear face 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak cradle screw rear near 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak cradle screw rear near 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak fork screw horn 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak fork screw horn 1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak fork screw horn 2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "group": "HEADS",
+  "item": "beak fork screw horn 3",
+  "status": "PASS",
+  "detail": ""
+ }
+]

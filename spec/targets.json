@@ -1,0 +1,32 @@
+{
+  "_about": "What milli must match: Pollen Robotics' microduck. 'published' from pollen-robotics.com/microduck and the press (cnx-software 2026-08-28; read 2026-11-02). 'model' values measured on microduck's own MJCF (pollen-robotics/microduck_rl, robot_walk.xml, its zero pose, knees bent; meshes CC BY-NC-SA 4.0, kept outside this repo) with the floor under its soles; metres. milli cannot be microduck's size with STS3215 legs (2026-11-02), so tools/checks.py compares PROPORTIONS: each 'model' value scaled by milli's height / microduck's, within 'tol' of that scaled value, and reports the height itself as a warning with the ratio.",
+  "published": {
+    "height_m": 0.25,
+    "mass_kg": 0.8,
+    "dof": 15,
+    "battery": "NP-F550 type 2600 mAh",
+    "runtime_h": 1.0
+  },
+  "model": {
+    "height_m": 0.264,
+    "head_length_m": 0.123,
+    "head_width_m": 0.092,
+    "head_height_m": 0.059,
+    "head_bottom_z": 0.205,
+    "neck_pitch_z": 0.139,
+    "hip_pitch_z": 0.089,
+    "body_width_m": 0.064,
+    "overall_width_m": 0.141,
+    "foot_length_m": 0.054
+  },
+  "tol": 0.1,
+  "mass_budget_kg": 1.55,
+  "mass_budget_note": "1.3 kg until 2026-11-02; raised to 1.35 when the SO-101-style servo mounts (cradles, forks, rear horns: 124 g) were modelled. Raised to 1.4 the same day for microduck's bearings (75 g of steel, less the forks they replace). Raised to 1.5 with STS3215 ankles (64 g more in servos, a longer shoe). Raised to 1.55 for the stronger shin and hip arm and the joined trays (2026-11-03). Every pose's torque check still passes.",
+  "look": {
+    "head": "a big rounded hood, white on top, a grey face set in under its front edge, one round eye with a coloured ring, an orange bill along its lower edge that opens",
+    "neck": "bare servos stacked, black",
+    "body": "a small white pillow-shaped shell over the hips",
+    "legs": "bare black servos at the hips and knees, a white rounded-triangle plate over each thigh, bare ankle servos",
+    "feet": "orange shoes on yellow soles"
+  }
+}

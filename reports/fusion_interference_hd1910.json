@@ -1,0 +1,892 @@
+[
+[
+"bus board cable plugs power",
+"Waveshare bus board DC terminals",
+80.0
+],
+[
+"bus board cable plugs usb",
+"Waveshare bus board USB-C",
+30.46
+],
+[
+"Pi USB plug",
+"Pi Zero 2 W USB port",
+20.8
+],
+[
+"Pi PWR plug",
+"Pi Zero 2 W power port",
+20.8
+],
+[
+"L hip pitch cable plugs +",
+"L hip pitch HD1910 case bottom",
+19.23
+],
+[
+"L knee cable plugs +",
+"L knee HD1910 case bottom",
+19.23
+],
+[
+"R hip pitch cable plugs -",
+"R hip pitch HD1910 case bottom",
+19.23
+],
+[
+"R knee cable plugs -",
+"R knee HD1910 case bottom",
+19.23
+],
+[
+"L hip pitch cable plugs -",
+"L hip pitch HD1910 case bottom",
+19.1
+],
+[
+"L knee cable plugs -",
+"L knee HD1910 case bottom",
+19.1
+],
+[
+"R hip pitch cable plugs +",
+"R hip pitch HD1910 case bottom",
+19.1
+],
+[
+"R knee cable plugs +",
+"R knee HD1910 case bottom",
+19.1
+],
+[
+"L shoe",
+"L sole",
+9.3
+],
+[
+"L roll bracket",
+"L hip roll horn bearing inner race",
+8.98
+],
+[
+"L roll bracket",
+"L hip pitch horn bearing inner race",
+8.98
+],
+[
+"R roll bracket",
+"R hip roll horn bearing inner race",
+8.98
+],
+[
+"L shin",
+"L knee horn bearing inner race",
+8.98
+],
+[
+"R shin",
+"R knee horn bearing inner race",
+8.98
+],
+[
+"head yaw bracket",
+"head yaw horn bearing inner race",
+8.98
+],
+[
+"L yaw bracket",
+"L hip yaw horn bearing inner race",
+8.91
+],
+[
+"R yaw bracket",
+"R hip yaw horn bearing inner race",
+8.91
+],
+[
+"R roll bracket",
+"R hip pitch horn bearing inner race",
+8.89
+],
+[
+"R shoe",
+"R sole",
+8.19
+],
+[
+"L shoe bottom screw 0",
+"L sole",
+8.04
+],
+[
+"L shoe bottom screw 1",
+"L sole",
+8.04
+],
+[
+"R shoe bottom screw 0",
+"R sole",
+8.04
+],
+[
+"R shoe bottom screw 1",
+"R sole",
+8.04
+],
+[
+"neck pitch HD1910 idler screw",
+"neck pitch HD1910 case bottom",
+7.4
+],
+[
+"L ankle pitch HD1910 case bottom",
+"L ankle pitch HD1910 idler screw",
+7.4
+],
+[
+"R ankle pitch HD1910 case bottom",
+"R ankle pitch HD1910 idler screw",
+7.4
+],
+[
+"head pitch HD1910 case bottom",
+"head pitch HD1910 idler screw",
+7.4
+],
+[
+"head roll HD1910 case bottom",
+"head roll HD1910 idler screw",
+7.4
+],
+[
+"R hinge screw",
+"hood",
+4.32
+],
+[
+"L shin",
+"L ankle boss screw 0",
+3.59
+],
+[
+"L shin",
+"L ankle boss screw 1",
+3.59
+],
+[
+"L shin",
+"L ankle boss screw 2",
+3.59
+],
+[
+"L shin",
+"L ankle boss screw 3",
+3.59
+],
+[
+"R shin",
+"R ankle boss screw 0",
+3.59
+],
+[
+"R shin",
+"R ankle boss screw 1",
+3.59
+],
+[
+"R shin",
+"R ankle boss screw 2",
+3.59
+],
+[
+"R shin",
+"R ankle boss screw 3",
+3.59
+],
+[
+"head roll rear bearing inner race",
+"head roll HD1910 idler",
+2.98
+],
+[
+"L hip yaw horn bearing inner race",
+"L hip yaw HD1910 horn",
+2.82
+],
+[
+"R hip yaw horn bearing inner race",
+"R hip yaw HD1910 horn",
+2.82
+],
+[
+"L hip roll horn bearing inner race",
+"L hip roll HD1910 horn",
+2.82
+],
+[
+"L hip pitch horn bearing inner race",
+"L hip pitch HD1910 horn",
+2.82
+],
+[
+"R hip roll horn bearing inner race",
+"R hip roll HD1910 horn",
+2.82
+],
+[
+"R hip pitch horn bearing inner race",
+"R hip pitch HD1910 horn",
+2.82
+],
+[
+"L knee horn bearing inner race",
+"L knee HD1910 horn",
+2.82
+],
+[
+"R knee horn bearing inner race",
+"R knee HD1910 horn",
+2.82
+],
+[
+"head yaw horn bearing inner race",
+"head yaw HD1910 horn",
+2.82
+],
+[
+"head roll horn bearing inner race",
+"head roll HD1910 horn",
+2.82
+],
+[
+"L hip yaw HD1910 case bottom",
+"L hip yaw HD1910 case screw 0",
+2.46
+],
+[
+"L hip yaw HD1910 case bottom",
+"L hip yaw HD1910 case screw 1",
+2.46
+],
+[
+"L hip yaw HD1910 case bottom",
+"L hip yaw HD1910 case screw 2",
+2.46
+],
+[
+"L hip yaw HD1910 case bottom",
+"L hip yaw HD1910 case screw 3",
+2.46
+],
+[
+"R hip yaw HD1910 case bottom",
+"R hip yaw HD1910 case screw 0",
+2.46
+],
+[
+"R hip yaw HD1910 case bottom",
+"R hip yaw HD1910 case screw 1",
+2.46
+],
+[
+"R hip yaw HD1910 case bottom",
+"R hip yaw HD1910 case screw 2",
+2.46
+],
+[
+"R hip yaw HD1910 case bottom",
+"R hip yaw HD1910 case screw 3",
+2.46
+],
+[
+"L hip roll HD1910 case bottom",
+"L hip roll HD1910 case screw 0",
+2.46
+],
+[
+"L hip roll HD1910 case bottom",
+"L hip roll HD1910 case screw 1",
+2.46
+],
+[
+"L hip roll HD1910 case bottom",
+"L hip roll HD1910 case screw 2",
+2.46
+],
+[
+"L hip roll HD1910 case bottom",
+"L hip roll HD1910 case screw 3",
+2.46
+],
+[
+"R hip roll HD1910 case bottom",
+"R hip roll HD1910 case screw 0",
+2.46
+],
+[
+"R hip roll HD1910 case bottom",
+"R hip roll HD1910 case screw 1",
+2.46
+],
+[
+"R hip roll HD1910 case bottom",
+"R hip roll HD1910 case screw 2",
+2.46
+],
+[
+"R hip roll HD1910 case bottom",
+"R hip roll HD1910 case screw 3",
+2.46
+],
+[
+"L hip pitch HD1910 case bottom",
+"L hip pitch HD1910 case screw 0",
+2.46
+],
+[
+"L hip pitch HD1910 case bottom",
+"L hip pitch HD1910 case screw 1",
+2.46
+],
+[
+"L hip pitch HD1910 case bottom",
+"L hip pitch HD1910 case screw 2",
+2.46
+],
+[
+"L hip pitch HD1910 case bottom",
+"L hip pitch HD1910 case screw 3",
+2.46
+],
+[
+"L knee HD1910 case bottom",
+"L knee HD1910 case screw 0",
+2.46
+],
+[
+"L knee HD1910 case bottom",
+"L knee HD1910 case screw 1",
+2.46
+],
+[
+"L knee HD1910 case bottom",
+"L knee HD1910 case screw 2",
+2.46
+],
+[
+"L knee HD1910 case bottom",
+"L knee HD1910 case screw 3",
+2.46
+],
+[
+"R hip pitch HD1910 case bottom",
+"R hip pitch HD1910 case screw 0",
+2.46
+],
+[
+"R hip pitch HD1910 case bottom",
+"R hip pitch HD1910 case screw 1",
+2.46
+],
+[
+"R hip pitch HD1910 case bottom",
+"R hip pitch HD1910 case screw 2",
+2.46
+],
+[
+"R hip pitch HD1910 case bottom",
+"R hip pitch HD1910 case screw 3",
+2.46
+],
+[
+"R knee HD1910 case bottom",
+"R knee HD1910 case screw 0",
+2.46
+],
+[
+"R knee HD1910 case bottom",
+"R knee HD1910 case screw 1",
+2.46
+],
+[
+"R knee HD1910 case bottom",
+"R knee HD1910 case screw 2",
+2.46
+],
+[
+"R knee HD1910 case bottom",
+"R knee HD1910 case screw 3",
+2.46
+],
+[
+"L ankle pitch HD1910 case bottom",
+"L ankle pitch HD1910 case screw 0",
+2.46
+],
+[
+"L ankle pitch HD1910 case bottom",
+"L ankle pitch HD1910 case screw 1",
+2.46
+],
+[
+"L ankle pitch HD1910 case bottom",
+"L ankle pitch HD1910 case screw 2",
+2.46
+],
+[
+"L ankle pitch HD1910 case bottom",
+"L ankle pitch HD1910 case screw 3",
+2.46
+],
+[
+"R ankle pitch HD1910 case bottom",
+"R ankle pitch HD1910 case screw 0",
+2.46
+],
+[
+"R ankle pitch HD1910 case bottom",
+"R ankle pitch HD1910 case screw 1",
+2.46
+],
+[
+"R ankle pitch HD1910 case bottom",
+"R ankle pitch HD1910 case screw 2",
+2.46
+],
+[
+"R ankle pitch HD1910 case bottom",
+"R ankle pitch HD1910 case screw 3",
+2.46
+],
+[
+"neck pitch HD1910 case bottom",
+"neck pitch HD1910 case screw 0",
+2.46
+],
+[
+"neck pitch HD1910 case bottom",
+"neck pitch HD1910 case screw 1",
+2.46
+],
+[
+"neck pitch HD1910 case bottom",
+"neck pitch HD1910 case screw 2",
+2.46
+],
+[
+"neck pitch HD1910 case bottom",
+"neck pitch HD1910 case screw 3",
+2.46
+],
+[
+"head pitch HD1910 case bottom",
+"head pitch HD1910 case screw 0",
+2.46
+],
+[
+"head pitch HD1910 case bottom",
+"head pitch HD1910 case screw 1",
+2.46
+],
+[
+"head pitch HD1910 case bottom",
+"head pitch HD1910 case screw 2",
+2.46
+],
+[
+"head pitch HD1910 case bottom",
+"head pitch HD1910 case screw 3",
+2.46
+],
+[
+"head yaw HD1910 case bottom",
+"head yaw HD1910 case screw 0",
+2.46
+],
+[
+"head yaw HD1910 case bottom",
+"head yaw HD1910 case screw 1",
+2.46
+],
+[
+"head yaw HD1910 case bottom",
+"head yaw HD1910 case screw 2",
+2.46
+],
+[
+"head yaw HD1910 case bottom",
+"head yaw HD1910 case screw 3",
+2.46
+],
+[
+"head roll HD1910 case bottom",
+"head roll HD1910 case screw 0",
+2.46
+],
+[
+"head roll HD1910 case bottom",
+"head roll HD1910 case screw 1",
+2.46
+],
+[
+"head roll HD1910 case bottom",
+"head roll HD1910 case screw 2",
+2.46
+],
+[
+"head roll HD1910 case bottom",
+"head roll HD1910 case screw 3",
+2.46
+],
+[
+"beak HD1910 case bottom",
+"beak HD1910 case screw 0",
+2.46
+],
+[
+"beak HD1910 case bottom",
+"beak HD1910 case screw 1",
+2.46
+],
+[
+"beak HD1910 case bottom",
+"beak HD1910 case screw 2",
+2.46
+],
+[
+"beak HD1910 case bottom",
+"beak HD1910 case screw 3",
+2.46
+],
+[
+"body shell",
+"body screw 0",
+2.16
+],
+[
+"body shell",
+"body screw 1",
+2.16
+],
+[
+"L thigh cover",
+"L thigh cover screw hip",
+2.16
+],
+[
+"L thigh cover",
+"L thigh cover screw knee",
+2.16
+],
+[
+"R thigh cover",
+"R thigh cover screw hip",
+2.16
+],
+[
+"R thigh cover",
+"R thigh cover screw knee",
+2.16
+],
+[
+"L shin",
+"L ankle bearing inner race",
+1.73
+],
+[
+"R shin",
+"R ankle bearing inner race",
+1.73
+],
+[
+"neck column",
+"neck lid",
+0.83
+],
+[
+"bus board top screw 0",
+"Waveshare bus board mounting rings",
+0.8
+],
+[
+"bus board top screw 1",
+"Waveshare bus board mounting rings",
+0.8
+],
+[
+"bus board top screw 2",
+"Waveshare bus board mounting rings",
+0.8
+],
+[
+"bus board top screw 3",
+"Waveshare bus board mounting rings",
+0.8
+],
+[
+"L hip pitch cable plugs +",
+"L hip pitch HD1910 socket 0",
+0.76
+],
+[
+"L hip pitch cable plugs -",
+"L hip pitch HD1910 socket 1",
+0.76
+],
+[
+"L knee cable plugs +",
+"L knee HD1910 socket 0",
+0.76
+],
+[
+"L knee cable plugs -",
+"L knee HD1910 socket 1",
+0.76
+],
+[
+"R hip pitch cable plugs +",
+"R hip pitch HD1910 socket 1",
+0.76
+],
+[
+"R hip pitch cable plugs -",
+"R hip pitch HD1910 socket 0",
+0.76
+],
+[
+"R knee cable plugs +",
+"R knee HD1910 socket 1",
+0.76
+],
+[
+"R knee cable plugs -",
+"R knee HD1910 socket 0",
+0.76
+],
+[
+"neck column",
+"head pitch lid",
+0.69
+],
+[
+"Pi screw 0",
+"Pi Zero 2 W mounting rings",
+0.57
+],
+[
+"Pi screw 1",
+"Pi Zero 2 W mounting rings",
+0.57
+],
+[
+"Pi screw 2",
+"Pi Zero 2 W mounting rings",
+0.57
+],
+[
+"Pi screw 3",
+"Pi Zero 2 W mounting rings",
+0.57
+],
+[
+"head fork",
+"head yaw sheet",
+0.36
+],
+[
+"L thigh frame",
+"L knee lid",
+0.32
+],
+[
+"R thigh frame",
+"R hip pitch lid",
+0.32
+],
+[
+"R thigh frame",
+"R knee lid",
+0.32
+],
+[
+"chassis",
+"R hip yaw lid",
+0.17
+],
+[
+"L thigh frame",
+"L hip pitch lid",
+0.16
+],
+[
+"head yaw bracket",
+"head roll cable plugs -",
+0.13
+],
+[
+"L yaw bracket",
+"L hip roll lid",
+0.05
+],
+[
+"R yaw bracket",
+"R hip roll lid",
+0.05
+],
+[
+"Pi Zero 2 W mounting rings",
+"Pi Zero 2 W microSD socket",
+0.04
+],
+[
+"L hip yaw HD1910 case bottom",
+"L hip yaw HD1910 socket 0",
+0.0
+],
+[
+"L hip yaw HD1910 case bottom",
+"L hip yaw HD1910 socket 1",
+0.0
+],
+[
+"R hip yaw HD1910 case bottom",
+"R hip yaw HD1910 socket 0",
+0.0
+],
+[
+"R hip yaw HD1910 case bottom",
+"R hip yaw HD1910 socket 1",
+0.0
+],
+[
+"L hip roll HD1910 case bottom",
+"L hip roll HD1910 socket 0",
+0.0
+],
+[
+"L hip roll HD1910 case bottom",
+"L hip roll HD1910 socket 1",
+0.0
+],
+[
+"R hip roll HD1910 case bottom",
+"R hip roll HD1910 socket 0",
+0.0
+],
+[
+"R hip roll HD1910 case bottom",
+"R hip roll HD1910 socket 1",
+0.0
+],
+[
+"L hip pitch HD1910 case bottom",
+"L hip pitch HD1910 socket 0",
+0.0
+],
+[
+"L hip pitch HD1910 case bottom",
+"L hip pitch HD1910 socket 1",
+0.0
+],
+[
+"L knee HD1910 case bottom",
+"L knee HD1910 socket 0",
+0.0
+],
+[
+"L knee HD1910 case bottom",
+"L knee HD1910 socket 1",
+0.0
+],
+[
+"R hip pitch HD1910 case bottom",
+"R hip pitch HD1910 socket 0",
+0.0
+],
+[
+"R hip pitch HD1910 case bottom",
+"R hip pitch HD1910 socket 1",
+0.0
+],
+[
+"R knee HD1910 case bottom",
+"R knee HD1910 socket 0",
+0.0
+],
+[
+"R knee HD1910 case bottom",
+"R knee HD1910 socket 1",
+0.0
+],
+[
+"L ankle pitch HD1910 case bottom",
+"L ankle pitch HD1910 socket 0",
+0.0
+],
+[
+"L ankle pitch HD1910 case bottom",
+"L ankle pitch HD1910 socket 1",
+0.0
+],
+[
+"R ankle pitch HD1910 case bottom",
+"R ankle pitch HD1910 socket 0",
+0.0
+],
+[
+"R ankle pitch HD1910 case bottom",
+"R ankle pitch HD1910 socket 1",
+0.0
+],
+[
+"neck pitch HD1910 case bottom",
+"neck pitch HD1910 socket 0",
+0.0
+],
+[
+"neck pitch HD1910 case bottom",
+"neck pitch HD1910 socket 1",
+0.0
+],
+[
+"head pitch HD1910 case bottom",
+"head pitch HD1910 socket 0",
+0.0
+],
+[
+"head pitch HD1910 case bottom",
+"head pitch HD1910 socket 1",
+0.0
+],
+[
+"head yaw HD1910 case bottom",
+"head yaw HD1910 socket 0",
+0.0
+],
+[
+"head yaw HD1910 case bottom",
+"head yaw HD1910 socket 1",
+0.0
+],
+[
+"head roll HD1910 case bottom",
+"head roll HD1910 socket 0",
+0.0
+],
+[
+"head roll HD1910 case bottom",
+"head roll HD1910 socket 1",
+0.0
+],
+[
+"beak HD1910 case bottom",
+"beak HD1910 socket 0",
+0.0
+],
+[
+"beak HD1910 case bottom",
+"beak HD1910 socket 1",
+0.0
+]
+]

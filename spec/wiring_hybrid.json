@@ -1,0 +1,1257 @@
+{
+ "title": "Hybrid duck: wiring",
+ "footer": [
+  "Red to +, black to -. Lines that cross are not joined. Set the UBEC to 5 V and measure both 5 V rails before connecting anything.",
+  "Bench test first: the boards' label says 9-12.6 V (Waveshare's page: 5 or 7.4 V also go in). The legs' V wire never goes up the neck. Also on the Pi: camera."
+ ],
+ "parts": {
+  "battery": {
+   "label": "Battery",
+   "sub": "Zeee 2S 850 mAh, XT30",
+   "picture": null,
+   "x": 60,
+   "y": 190,
+   "w": 350,
+   "h": 110,
+   "pins": {
+    "xt30+": [
+     1.0,
+     0.35
+    ],
+    "xt30-": [
+     1.0,
+     0.65
+    ],
+    "balance": [
+     0.26,
+     1.0
+    ]
+   }
+  },
+  "charger": {
+   "label": "Charger",
+   "sub": "unplug the XT30 first",
+   "picture": null,
+   "x": 60,
+   "y": 420,
+   "w": 350,
+   "h": 90,
+   "pins": {
+    "in": [
+     0.26,
+     0.0
+    ]
+   }
+  },
+  "splice": {
+   "label": "Legs' splice",
+   "sub": "V, G from the battery; D, G from the neck",
+   "picture": null,
+   "x": 640,
+   "y": 130,
+   "w": 520,
+   "h": 110,
+   "pins": {
+    "v": [
+     0.0,
+     0.35
+    ],
+    "g": [
+     0.0,
+     0.65
+    ],
+    "l": [
+     1.0,
+     0.3
+    ],
+    "r": [
+     1.0,
+     0.7
+    ],
+    "d": [
+     0.33,
+     1.0
+    ]
+   }
+  },
+  "ubec": {
+   "label": "5 V UBEC, 8 A",
+   "sub": "jumper at 5 V: measure first",
+   "picture": null,
+   "x": 640,
+   "y": 340,
+   "w": 360,
+   "h": 100,
+   "pins": {
+    "in+": [
+     0.0,
+     0.35
+    ],
+    "in-": [
+     0.0,
+     0.65
+    ],
+    "out+": [
+     0.8,
+     1.0
+    ],
+    "out-": [
+     0.9,
+     1.0
+    ]
+   }
+  },
+  "imu": {
+   "label": "IMU, BNO085",
+   "sub": "on the top plate",
+   "picture": null,
+   "x": 640,
+   "y": 490,
+   "w": 230,
+   "h": 90,
+   "pins": {
+    "in": [
+     0.0,
+     0.5
+    ]
+   }
+  },
+  "left": {
+   "label": "Left leg, 5 STS3215",
+   "sub": "in series",
+   "picture": "../../images/wiring/sts3215.png",
+   "x": 1540,
+   "y": 105,
+   "w": 120,
+   "pins": {
+    "in": [
+     0.02,
+     0.55
+    ]
+   }
+  },
+  "right": {
+   "label": "Right leg, 5 STS3215",
+   "sub": "in series",
+   "picture": "../../images/wiring/sts3215.png",
+   "x": 1860,
+   "y": 105,
+   "w": 120,
+   "pins": {
+    "in": [
+     0.02,
+     0.55
+    ]
+   }
+  },
+  "fboard": {
+   "label": "Waveshare board: Feetech",
+   "sub": "back of the head, jumpers at A",
+   "picture": "waveshare_r.png",
+   "x": 640,
+   "y": 780,
+   "w": 270,
+   "label_at": "top",
+   "pins": {
+    "s1": [
+     1.0,
+     0.26
+    ],
+    "tx": [
+     1.0,
+     0.71
+    ],
+    "rx": [
+     1.0,
+     0.77
+    ],
+    "gnd": [
+     1.0,
+     0.84
+    ],
+    "dc+": [
+     0.103,
+     0.443
+    ],
+    "dc-": [
+     0.103,
+     0.536
+    ],
+    "tap+": [
+     0.103,
+     0.47
+    ],
+    "tap-": [
+     0.103,
+     0.565
+    ]
+   }
+  },
+  "dboard": {
+   "label": "Waveshare board: Dynamixel",
+   "sub": "behind the Pi's plate, jumpers at B",
+   "picture": "waveshare_r.png",
+   "x": 1200,
+   "y": 780,
+   "w": 270,
+   "label_at": "top",
+   "pins": {
+    "usb": [
+     0.0,
+     0.76
+    ],
+    "s1": [
+     1.0,
+     0.26
+    ],
+    "dc+": [
+     0.103,
+     0.443
+    ],
+    "dc-": [
+     0.103,
+     0.536
+    ]
+   }
+  },
+  "head": {
+   "label": "5 head servos",
+   "sub": "beak, roll, yaw, pitch, neck, in series",
+   "picture": "servo.png",
+   "x": 1660,
+   "y": 780,
+   "w": 170,
+   "pins": {
+    "in": [
+     0.02,
+     0.55
+    ]
+   }
+  },
+  "regulator": {
+   "label": "5 V USB converter",
+   "sub": "the Pi's only",
+   "picture": "usb_buck_r.png",
+   "x": 310,
+   "y": 780,
+   "w": 240,
+   "label_at": "top",
+   "pins": {
+    "in+": [
+     0.95,
+     0.23
+    ],
+    "in-": [
+     0.95,
+     0.84
+    ],
+    "out": [
+     0.0,
+     0.5
+    ]
+   }
+  },
+  "pi": {
+   "label": "Raspberry Pi Zero 2 W",
+   "sub": "microSD and camera not shown",
+   "picture": "pi_photo.png",
+   "x": 60,
+   "y": 960,
+   "w": 480,
+   "pins": {
+    "5v": [
+     0.1778975741239892,
+     0.04
+    ],
+    "usb": [
+     0.3692722371967655,
+     0.04
+    ],
+    "tx": [
+     0.75,
+     0.93
+    ],
+    "rx": [
+     0.79,
+     0.93
+    ],
+    "g": [
+     0.83,
+     0.93
+    ],
+    "i2c": [
+     0.9,
+     0.93
+    ]
+   }
+  }
+ },
+ "wires": [
+  {
+   "from": "battery.xt30+",
+   "to": "splice.v",
+   "kind": "red",
+   "label": "XT30",
+   "via": [
+    [
+     500,
+     228
+    ],
+    [
+     500,
+     168
+    ]
+   ]
+  },
+  {
+   "from": "battery.xt30-",
+   "to": "splice.g",
+   "kind": "black",
+   "via": [
+    [
+     470,
+     261
+    ],
+    [
+     470,
+     201
+    ]
+   ]
+  },
+  {
+   "from": "battery.xt30+",
+   "to": "ubec.in+",
+   "kind": "red",
+   "via": [
+    [
+     500,
+     228
+    ],
+    [
+     500,
+     375
+    ]
+   ]
+  },
+  {
+   "from": "battery.xt30-",
+   "to": "ubec.in-",
+   "kind": "black",
+   "via": [
+    [
+     470,
+     261
+    ],
+    [
+     470,
+     405
+    ]
+   ]
+  },
+  {
+   "from": "battery.xt30+",
+   "to": "fboard.dc+",
+   "kind": "red",
+   "label": "2S, up the neck",
+   "via": [
+    [
+     500,
+     228
+    ],
+    [
+     500,
+     620
+    ],
+    [
+     625,
+     620
+    ],
+    [
+     625,
+     926
+    ]
+   ],
+   "label_at": [
+    560,
+    595
+   ]
+  },
+  {
+   "from": "battery.xt30-",
+   "to": "fboard.dc-",
+   "kind": "black",
+   "via": [
+    [
+     470,
+     261
+    ],
+    [
+     470,
+     635
+    ],
+    [
+     610,
+     635
+    ],
+    [
+     610,
+     957
+    ]
+   ]
+  },
+  {
+   "from": "fboard.tap+",
+   "to": "regulator.in+",
+   "kind": "red",
+   "label": "2 thin wires",
+   "via": [
+    [
+     570,
+     935
+    ],
+    [
+     570,
+     808
+    ]
+   ],
+   "label_at": [
+    470,
+    930
+   ]
+  },
+  {
+   "from": "fboard.tap-",
+   "to": "regulator.in-",
+   "kind": "black",
+   "via": [
+    [
+     555,
+     966
+    ],
+    [
+     555,
+     881
+    ]
+   ]
+  },
+  {
+   "from": "regulator.out",
+   "to": "pi.5v",
+   "kind": "five",
+   "label": "USB cable to PWR port",
+   "via": [
+    [
+     270,
+     840
+    ],
+    [
+     270,
+     925
+    ],
+    [
+     145,
+     925
+    ]
+   ]
+  },
+  {
+   "from": "pi.usb",
+   "to": "dboard.usb",
+   "kind": "usb",
+   "label": "USB, OTG lead",
+   "via": [
+    [
+     237,
+     665
+    ],
+    [
+     1170,
+     665
+    ],
+    [
+     1170,
+     1031
+    ]
+   ],
+   "label_at": [
+    800,
+    641
+   ]
+  },
+  {
+   "from": "ubec.out+",
+   "to": "dboard.dc+",
+   "kind": "five",
+   "label": "5 V, up the neck",
+   "via": [
+    [
+     928,
+     700
+    ],
+    [
+     1135,
+     700
+    ],
+    [
+     1135,
+     926
+    ]
+   ],
+   "label_at": [
+    1290,
+    672
+   ]
+  },
+  {
+   "from": "ubec.out-",
+   "to": "dboard.dc-",
+   "kind": "fiveg",
+   "via": [
+    [
+     964,
+     682
+    ],
+    [
+     1150,
+     682
+    ],
+    [
+     1150,
+     957
+    ]
+   ]
+  },
+  {
+   "from": "dboard.s1",
+   "to": "head.in",
+   "kind": "servo",
+   "label": "socket 1"
+  },
+  {
+   "from": "splice.l",
+   "to": "left.in",
+   "kind": "servo",
+   "label": "to left hip yaw",
+   "via": [
+    [
+     1480,
+     163
+    ],
+    [
+     1480,
+     190
+    ]
+   ]
+  },
+  {
+   "from": "splice.r",
+   "to": "right.in",
+   "kind": "servo",
+   "label": "to right hip yaw",
+   "via": [
+    [
+     1300,
+     207
+    ],
+    [
+     1300,
+     355
+    ],
+    [
+     1800,
+     355
+    ],
+    [
+     1800,
+     190
+    ]
+   ],
+   "label_at": [
+    1560,
+    355
+   ]
+  },
+  {
+   "from": "fboard.s1",
+   "to": "splice.d",
+   "kind": "data",
+   "label": "D, G only, up the neck",
+   "via": [
+    [
+     1040,
+     866
+    ],
+    [
+     1040,
+     290
+    ],
+    [
+     812,
+     290
+    ]
+   ],
+   "label_at": [
+    1190,
+    450
+   ]
+  },
+  {
+   "from": "pi.tx",
+   "to": "fboard.tx",
+   "kind": "uart",
+   "label": "UART: TX to TX, RX to RX",
+   "via": [
+    [
+     420,
+     1350
+    ],
+    [
+     980,
+     1350
+    ],
+    [
+     980,
+     1014
+    ]
+   ]
+  },
+  {
+   "from": "pi.rx",
+   "to": "fboard.rx",
+   "kind": "uart",
+   "via": [
+    [
+     439,
+     1338
+    ],
+    [
+     960,
+     1338
+    ],
+    [
+     960,
+     1034
+    ]
+   ]
+  },
+  {
+   "from": "pi.g",
+   "to": "fboard.gnd",
+   "kind": "uart",
+   "via": [
+    [
+     458,
+     1326
+    ],
+    [
+     940,
+     1326
+    ],
+    [
+     940,
+     1057
+    ]
+   ]
+  },
+  {
+   "from": "pi.i2c",
+   "to": "imu.in",
+   "kind": "uart",
+   "label": "I2C, 4 wires down the neck",
+   "via": [
+    [
+     492,
+     1314
+    ],
+    [
+     590,
+     1314
+    ],
+    [
+     590,
+     535
+    ]
+   ],
+   "label_at": [
+    770,
+    1170
+   ]
+  },
+  {
+   "from": "battery.balance",
+   "to": "charger.in",
+   "kind": "charge",
+   "label": "white plug"
+  }
+ ],
+ "kinds": {
+  "red": {
+   "color": [
+    205,
+    40,
+    35
+   ],
+   "width": 6,
+   "name": "2S +"
+  },
+  "black": {
+   "color": [
+    24,
+    26,
+    30
+   ],
+   "width": 6,
+   "name": "2S -"
+  },
+  "five": {
+   "color": [
+    232,
+    130,
+    20
+   ],
+   "width": 6,
+   "name": "5 V"
+  },
+  "fiveg": {
+   "color": [
+    120,
+    124,
+    128
+   ],
+   "width": 6,
+   "name": "5 V -"
+  },
+  "usb": {
+   "color": [
+    30,
+    95,
+    200
+   ],
+   "width": 6,
+   "name": "USB"
+  },
+  "servo": {
+   "color": [
+    120,
+    80,
+    40
+   ],
+   "width": 8,
+   "name": "Servo cable"
+  },
+  "data": {
+   "color": [
+    20,
+    150,
+    120
+   ],
+   "width": 5,
+   "name": "Bus data, ground"
+  },
+  "uart": {
+   "color": [
+    150,
+    60,
+    170
+   ],
+   "width": 3,
+   "name": "UART, I2C"
+  },
+  "charge": {
+   "color": [
+    130,
+    90,
+    170
+   ],
+   "width": 5,
+   "name": "Charging only"
+  }
+ },
+ "routes": [
+  {
+   "name": "left ankle to knee",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "L ankle pitch cable plugs",
+    "L knee cable plugs"
+   ]
+  },
+  {
+   "name": "left knee to hip pitch",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "L knee cable plugs",
+    "L hip pitch cable plugs"
+   ]
+  },
+  {
+   "name": "left hip pitch to hip roll",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "L hip pitch cable plugs",
+    "L hip roll cable plugs"
+   ]
+  },
+  {
+   "name": "left hip roll to hip yaw",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "L hip roll cable plugs",
+    "L hip yaw cable plugs"
+   ]
+  },
+  {
+   "name": "left hip yaw to splice",
+   "what": "STS3215 lead, one plug cut off",
+   "have": 0.15,
+   "via": [
+    "L hip yaw cable plugs",
+    "leg bus splice"
+   ]
+  },
+  {
+   "name": "right ankle to knee",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "R ankle pitch cable plugs",
+    "R knee cable plugs"
+   ]
+  },
+  {
+   "name": "right knee to hip pitch",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "R knee cable plugs",
+    "R hip pitch cable plugs"
+   ]
+  },
+  {
+   "name": "right hip pitch to hip roll",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "R hip pitch cable plugs",
+    "R hip roll cable plugs"
+   ]
+  },
+  {
+   "name": "right hip roll to hip yaw",
+   "what": "STS3215 lead",
+   "have": 0.15,
+   "via": [
+    "R hip roll cable plugs",
+    "R hip yaw cable plugs"
+   ]
+  },
+  {
+   "name": "right hip yaw to splice",
+   "what": "STS3215 lead, one plug cut off",
+   "have": 0.15,
+   "via": [
+    "R hip yaw cable plugs",
+    "leg bus splice"
+   ]
+  },
+  {
+   "name": "battery to splice",
+   "what": "XT30 pigtail, 16 AWG: V and G",
+   "via": [
+    "battery XT30",
+    [
+     "trunk",
+     -0.03,
+     0.034,
+     0.175
+    ],
+    [
+     "trunk",
+     0.0,
+     0.012,
+     0.186
+    ],
+    "leg bus splice"
+   ]
+  },
+  {
+   "name": "battery to UBEC",
+   "what": "20 AWG pair",
+   "via": [
+    "battery XT30",
+    [
+     "trunk",
+     -0.03,
+     0.034,
+     0.165
+    ],
+    "L 5 V regulator"
+   ]
+  },
+  {
+   "name": "Feetech board to splice",
+   "what": "D and G: 5264 plug and 28 AWG, up the neck",
+   "extra": 0.045,
+   "via": [
+    "leg bus board plugs servo",
+    [
+     "head",
+     0.002,
+     0.0,
+     0.264
+    ],
+    [
+     "head_yaw_link",
+     0.022,
+     0.0,
+     0.262
+    ],
+    [
+     "head_pitch_link",
+     0.02,
+     -0.016,
+     0.238
+    ],
+    [
+     "neck_link",
+     0.016,
+     -0.021,
+     0.2
+    ],
+    [
+     "trunk",
+     0.012,
+     -0.012,
+     0.19
+    ],
+    "leg bus splice"
+   ]
+  },
+  {
+   "name": "2S to the Feetech board",
+   "what": "20 AWG pair, up the neck",
+   "extra": 0.045,
+   "via": [
+    "battery XT30",
+    [
+     "trunk",
+     -0.03,
+     0.034,
+     0.175
+    ],
+    [
+     "trunk",
+     0.0,
+     0.012,
+     0.186
+    ],
+    [
+     "trunk",
+     0.012,
+     -0.012,
+     0.19
+    ],
+    [
+     "neck_link",
+     0.016,
+     -0.021,
+     0.2
+    ],
+    [
+     "head_pitch_link",
+     0.02,
+     -0.016,
+     0.238
+    ],
+    [
+     "head_yaw_link",
+     0.022,
+     0.0,
+     0.262
+    ],
+    "leg bus board plugs power"
+   ]
+  },
+  {
+   "name": "5 V to the Dynamixel board",
+   "what": "20 AWG pair, up the neck",
+   "extra": 0.045,
+   "via": [
+    "L 5 V regulator",
+    [
+     "trunk",
+     0.0,
+     0.03,
+     0.182
+    ],
+    [
+     "trunk",
+     0.012,
+     -0.012,
+     0.19
+    ],
+    [
+     "neck_link",
+     0.016,
+     -0.021,
+     0.2
+    ],
+    [
+     "head_pitch_link",
+     0.02,
+     -0.016,
+     0.238
+    ],
+    [
+     "head_yaw_link",
+     0.022,
+     0.0,
+     0.262
+    ],
+    [
+     "head",
+     0.05,
+     0.014,
+     0.266
+    ],
+    "bus board cable plugs power"
+   ]
+  },
+  {
+   "name": "IMU",
+   "what": "4 x 28 AWG, down the neck",
+   "extra": 0.045,
+   "via": [
+    "Pi GPIO wires",
+    [
+     "head",
+     0.0795,
+     0.0345,
+     0.268
+    ],
+    [
+     "head",
+     0.074,
+     0.034,
+     0.292
+    ],
+    [
+     "head",
+     0.045,
+     0.012,
+     0.3065
+    ],
+    [
+     "head",
+     0.004,
+     0.022,
+     0.3
+    ],
+    [
+     "head",
+     0.002,
+     0.0,
+     0.264
+    ],
+    [
+     "head_yaw_link",
+     0.022,
+     0.0,
+     0.262
+    ],
+    [
+     "head_pitch_link",
+     0.02,
+     -0.016,
+     0.238
+    ],
+    [
+     "neck_link",
+     0.016,
+     -0.021,
+     0.2
+    ],
+    [
+     "trunk",
+     0.012,
+     -0.012,
+     0.19
+    ],
+    "IMU"
+   ]
+  },
+  {
+   "name": "UART",
+   "what": "3 x 28 AWG",
+   "via": [
+    "Pi GPIO wires",
+    [
+     "head",
+     0.0795,
+     0.0345,
+     0.268
+    ],
+    [
+     "head",
+     0.074,
+     0.034,
+     0.292
+    ],
+    [
+     "head",
+     0.045,
+     0.012,
+     0.3065
+    ],
+    "leg bus board plugs uart"
+   ]
+  },
+  {
+   "name": "Pi's regulator input",
+   "what": "2 x 28 AWG",
+   "via": [
+    "leg bus board plugs power",
+    [
+     "head",
+     0.012,
+     -0.033,
+     0.268
+    ],
+    [
+     "head",
+     0.06,
+     -0.04,
+     0.268
+    ],
+    "head 5 V regulator"
+   ]
+  },
+  {
+   "name": "Pi's power",
+   "what": "LY tech USB ribbon",
+   "have": 0.1,
+   "via": [
+    "head regulator plug",
+    [
+     "head",
+     0.098,
+     -0.03,
+     0.285
+    ],
+    "Pi PWR plug"
+   ]
+  },
+  {
+   "name": "Pi to the Dynamixel board",
+   "what": "Veeloon OTG lead",
+   "have": 0.183,
+   "via": [
+    "Pi USB plug",
+    [
+     "head",
+     0.074,
+     0.01,
+     0.307
+    ],
+    [
+     "head",
+     0.052,
+     0.024,
+     0.3
+    ],
+    "bus board cable plugs usb"
+   ]
+  },
+  {
+   "name": "camera",
+   "what": "ribbon",
+   "have": 0.15,
+   "via": [
+    "camera",
+    [
+     "head",
+     0.09,
+     -0.034,
+     0.27
+    ],
+    "Pi camera ribbon"
+   ]
+  },
+  {
+   "name": "Dynamixel board to beak",
+   "what": "ROBOTIS lead",
+   "have": 0.18,
+   "via": [
+    "bus board cable plugs servo",
+    [
+     "head",
+     0.047,
+     0.012,
+     0.3045
+    ],
+    "beak cable plugs +"
+   ]
+  },
+  {
+   "name": "beak to head roll",
+   "what": "ROBOTIS lead",
+   "have": 0.18,
+   "via": [
+    "beak cable plugs -",
+    "head roll cable plugs -"
+   ]
+  },
+  {
+   "name": "head roll to head yaw",
+   "what": "ROBOTIS lead",
+   "have": 0.18,
+   "via": [
+    "head roll cable plugs +",
+    "head yaw cable plugs +"
+   ]
+  },
+  {
+   "name": "head yaw to head pitch",
+   "what": "ROBOTIS lead",
+   "have": 0.18,
+   "extra": 0.045,
+   "via": [
+    "head yaw cable plugs -",
+    "head pitch cable plugs -"
+   ]
+  },
+  {
+   "name": "head pitch to neck",
+   "what": "ROBOTIS lead",
+   "have": 0.18,
+   "via": [
+    "head pitch cable plugs +",
+    "neck pitch cable plugs +"
+   ]
+  }
+ ],
+ "size": [
+  2200,
+  1560
+ ],
+ "bands": [
+  [
+   30,
+   92,
+   2170,
+   600,
+   "In the body"
+  ],
+  [
+   30,
+   648,
+   2170,
+   1405,
+   "In the head"
+  ]
+ ]
+}
